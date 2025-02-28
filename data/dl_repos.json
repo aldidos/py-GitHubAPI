@@ -1,0 +1,5097 @@
+[
+	{
+		"id": "83222441",
+		"owner": "donnemartin",
+		"repo": "system-design-primer"
+	},
+	{
+		"id": "21289110",
+		"owner": "vinta",
+		"repo": "awesome-python"
+	},
+	{
+		"id": "21872392",
+		"owner": "josephmisiti",
+		"repo": "awesome-machine-learning"
+	},
+	{
+		"id": "45723377",
+		"owner": "charlax",
+		"repo": "professional-programming"
+	},
+	{
+		"id": "422274596",
+		"owner": "hpcaitech",
+		"repo": "ColossalAI"
+	},
+	{
+		"id": "70905478",
+		"owner": "floodsung",
+		"repo": "Deep-Learning-Papers-Reading-Roadmap"
+	},
+	{
+		"id": "162405963",
+		"owner": "gradio-app",
+		"repo": "gradio"
+	},
+	{
+		"id": "145670234",
+		"owner": "open-mmlab",
+		"repo": "mmdetection"
+	},
+	{
+		"id": "29749635",
+		"owner": "donnemartin",
+		"repo": "data-science-ipython-notebooks"
+	},
+	{
+		"id": "42625970",
+		"owner": "HumanSignal",
+		"repo": "labelImg"
+	},
+	{
+		"id": "65083316",
+		"owner": "luong-komorebi",
+		"repo": "Awesome-Linux-Software"
+	},
+	{
+		"id": "106024057",
+		"owner": "pyg-team",
+		"repo": "pytorch_geometric"
+	},
+	{
+		"id": "240315046",
+		"owner": "jina-ai",
+		"repo": "jina"
+	},
+	{
+		"id": "149430917",
+		"owner": "recommenders-team",
+		"repo": "recommenders"
+	},
+	{
+		"id": "629102662",
+		"owner": "haotian-liu",
+		"repo": "LLaVA"
+	},
+	{
+		"id": "43425480",
+		"owner": "wilsonfreitas",
+		"repo": "awesome-quant"
+	},
+	{
+		"id": "130474497",
+		"owner": "eriklindernoren",
+		"repo": "PyTorch-GAN"
+	},
+	{
+		"id": "88285322",
+		"owner": "hindupuravinash",
+		"repo": "the-gan-zoo"
+	},
+	{
+		"id": "135673451",
+		"owner": "microsoft",
+		"repo": "nni"
+	},
+	{
+		"id": "130375797",
+		"owner": "dmlc",
+		"repo": "dgl"
+	},
+	{
+		"id": "89846872",
+		"owner": "jindongwang",
+		"repo": "transferlearning"
+	},
+	{
+		"id": "662028682",
+		"owner": "graphdeco-inria",
+		"repo": "gaussian-splatting"
+	},
+	{
+		"id": "95817032",
+		"owner": "edgedb",
+		"repo": "edgedb"
+	},
+	{
+		"id": "44104712",
+		"owner": "donnemartin",
+		"repo": "awesome-aws"
+	},
+	{
+		"id": "92254860",
+		"owner": "tonybeltramelli",
+		"repo": "pix2code"
+	},
+	{
+		"id": "365517762",
+		"owner": "xmu-xiaoma666",
+		"repo": "External-Attention-pytorch"
+	},
+	{
+		"id": "478823173",
+		"owner": "lucidrains",
+		"repo": "DALLE2-pytorch"
+	},
+	{
+		"id": "613731840",
+		"owner": "RUCAIBox",
+		"repo": "LLMSurvey"
+	},
+	{
+		"id": "176982014",
+		"owner": "NVIDIA",
+		"repo": "Megatron-LM"
+	},
+	{
+		"id": "7040500",
+		"owner": "falconry",
+		"repo": "falcon"
+	},
+	{
+		"id": "21604505",
+		"owner": "lauris",
+		"repo": "awesome-scala"
+	},
+	{
+		"id": "547806116",
+		"owner": "huggingface",
+		"repo": "text-generation-inference"
+	},
+	{
+		"id": "125932201",
+		"owner": "OlafenwaMoses",
+		"repo": "ImageAI"
+	},
+	{
+		"id": "191632914",
+		"owner": "facebookresearch",
+		"repo": "hydra"
+	},
+	{
+		"id": "133717148",
+		"owner": "yzhao062",
+		"repo": "anomaly-detection-resources"
+	},
+	{
+		"id": "201403923",
+		"owner": "activeloopai",
+		"repo": "deeplake"
+	},
+	{
+		"id": "495587598",
+		"owner": "lucidrains",
+		"repo": "imagen-pytorch"
+	},
+	{
+		"id": "151636194",
+		"owner": "triton-inference-server",
+		"repo": "server"
+	},
+	{
+		"id": "273214029",
+		"owner": "PaddlePaddle",
+		"repo": "PaddleGAN"
+	},
+	{
+		"id": "129815042",
+		"owner": "thu-ml",
+		"repo": "tianshou"
+	},
+	{
+		"id": "342728683",
+		"owner": "replicate",
+		"repo": "cog"
+	},
+	{
+		"id": "199509705",
+		"owner": "autogluon",
+		"repo": "autogluon"
+	},
+	{
+		"id": "60626727",
+		"owner": "tensorlayer",
+		"repo": "TensorLayer"
+	},
+	{
+		"id": "29439879",
+		"owner": "hellerve",
+		"repo": "programming-talks"
+	},
+	{
+		"id": "788562361",
+		"owner": "apple",
+		"repo": "corenet"
+	},
+	{
+		"id": "88444621",
+		"owner": "SerpentAI",
+		"repo": "SerpentAI"
+	},
+	{
+		"id": "517552648",
+		"owner": "modelscope",
+		"repo": "modelscope"
+	},
+	{
+		"id": "177023075",
+		"owner": "firmai",
+		"repo": "financial-machine-learning"
+	},
+	{
+		"id": "101052455",
+		"owner": "likedan",
+		"repo": "Awesome-CoreML-Models"
+	},
+	{
+		"id": "179728393",
+		"owner": "microsoft",
+		"repo": "nlp-recipes"
+	},
+	{
+		"id": "243454957",
+		"owner": "MingchaoZhu",
+		"repo": "DeepLearning"
+	},
+	{
+		"id": "164564630",
+		"owner": "0xInfection",
+		"repo": "Awesome-WAF"
+	},
+	{
+		"id": "162015573",
+		"owner": "EvanLi",
+		"repo": "Github-Ranking"
+	},
+	{
+		"id": "65851975",
+		"owner": "yahoo",
+		"repo": "open_nsfw"
+	},
+	{
+		"id": "57182702",
+		"owner": "aymericdamien",
+		"repo": "TopDeepLearning"
+	},
+	{
+		"id": "122896249",
+		"owner": "dmlc",
+		"repo": "gluon-cv"
+	},
+	{
+		"id": "100464123",
+		"owner": "microsoft",
+		"repo": "MMdnn"
+	},
+	{
+		"id": "23389271",
+		"owner": "tyiannak",
+		"repo": "pyAudioAnalysis"
+	},
+	{
+		"id": "167349656",
+		"owner": "FederatedAI",
+		"repo": "FATE"
+	},
+	{
+		"id": "327113050",
+		"owner": "lucidrains",
+		"repo": "DALLE-pytorch"
+	},
+	{
+		"id": "181846371",
+		"owner": "MIC-DKFZ",
+		"repo": "nnUNet"
+	},
+	{
+		"id": "278003645",
+		"owner": "open-mmlab",
+		"repo": "mmpose"
+	},
+	{
+		"id": "157588610",
+		"owner": "rtqichen",
+		"repo": "torchdiffeq"
+	},
+	{
+		"id": "299644773",
+		"owner": "Turing-Project",
+		"repo": "WriteGPT"
+	},
+	{
+		"id": "80920452",
+		"owner": "nwojke",
+		"repo": "deep_sort"
+	},
+	{
+		"id": "79848747",
+		"owner": "ticarpi",
+		"repo": "jwt_tool"
+	},
+	{
+		"id": "43759462",
+		"owner": "ujjwalkarn",
+		"repo": "DataSciencePython"
+	},
+	{
+		"id": "147583941",
+		"owner": "crytic",
+		"repo": "slither"
+	},
+	{
+		"id": "194306461",
+		"owner": "yuanxiaosc",
+		"repo": "DeepImage-an-Image-to-Image-technology"
+	},
+	{
+		"id": "113166974",
+		"owner": "guofei9987",
+		"repo": "scikit-opt"
+	},
+	{
+		"id": "253975496",
+		"owner": "srbhr",
+		"repo": "Resume-Matcher"
+	},
+	{
+		"id": "204734444",
+		"owner": "pytorch",
+		"repo": "captum"
+	},
+	{
+		"id": "80492172",
+		"owner": "charlesq34",
+		"repo": "pointnet"
+	},
+	{
+		"id": "646333922",
+		"owner": "OpenBMB",
+		"repo": "ToolBench"
+	},
+	{
+		"id": "188584527",
+		"owner": "lonePatient",
+		"repo": "awesome-pretrained-chinese-nlp-models"
+	},
+	{
+		"id": "164380611",
+		"owner": "instillai",
+		"repo": "deep-learning-roadmap"
+	},
+	{
+		"id": "810449821",
+		"owner": "adithya-s-k",
+		"repo": "omniparse"
+	},
+	{
+		"id": "111835796",
+		"owner": "pytorch",
+		"repo": "ignite"
+	},
+	{
+		"id": "126897385",
+		"owner": "DeepLabCut",
+		"repo": "DeepLabCut"
+	},
+	{
+		"id": "468601503",
+		"owner": "TJU-DRL-LAB",
+		"repo": "AI-Optimizer"
+	},
+	{
+		"id": "306980630",
+		"owner": "lucidrains",
+		"repo": "x-transformers"
+	},
+	{
+		"id": "332736941",
+		"owner": "XuehaiPan",
+		"repo": "nvitop"
+	},
+	{
+		"id": "100249425",
+		"owner": "fizyr",
+		"repo": "keras-retinanet"
+	},
+	{
+		"id": "42395733",
+		"owner": "phodal",
+		"repo": "awesome-iot"
+	},
+	{
+		"id": "124800162",
+		"owner": "KaiyangZhou",
+		"repo": "deep-person-reid"
+	},
+	{
+		"id": "259513732",
+		"owner": "PaddlePaddle",
+		"repo": "PaddleRec"
+	},
+	{
+		"id": "534370412",
+		"owner": "nv-tlabs",
+		"repo": "GET3D"
+	},
+	{
+		"id": "89074562",
+		"owner": "weiaicunzai",
+		"repo": "pytorch-cifar100"
+	},
+	{
+		"id": "153097694",
+		"owner": "openvinotoolkit",
+		"repo": "open_model_zoo"
+	},
+	{
+		"id": "510161994",
+		"owner": "facundoolano",
+		"repo": "software-papers"
+	},
+	{
+		"id": "310027001",
+		"owner": "ashleve",
+		"repo": "lightning-hydra-template"
+	},
+	{
+		"id": "223357324",
+		"owner": "CLUEbenchmark",
+		"repo": "CLUE"
+	},
+	{
+		"id": "79584587",
+		"owner": "yahoo",
+		"repo": "TensorFlowOnSpark"
+	},
+	{
+		"id": "266895706",
+		"owner": "kelvins",
+		"repo": "awesome-mlops"
+	},
+	{
+		"id": "256262711",
+		"owner": "huangrt01",
+		"repo": "CS-Notes"
+	},
+	{
+		"id": "189437648",
+		"owner": "JunMa11",
+		"repo": "SegLossOdyssey"
+	},
+	{
+		"id": "97159209",
+		"owner": "TarrySingh",
+		"repo": "Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials"
+	},
+	{
+		"id": "186526115",
+		"owner": "facebookresearch",
+		"repo": "dlrm"
+	},
+	{
+		"id": "625274957",
+		"owner": "hiyouga",
+		"repo": "ChatGLM-Efficient-Tuning"
+	},
+	{
+		"id": "98565575",
+		"owner": "facebookresearch",
+		"repo": "ReAgent"
+	},
+	{
+		"id": "327949189",
+		"owner": "mindee",
+		"repo": "doctr"
+	},
+	{
+		"id": "617219182",
+		"owner": "Kent0n-Li",
+		"repo": "ChatDoctor"
+	},
+	{
+		"id": "164046740",
+		"owner": "ZhaoJ9014",
+		"repo": "face.evoLVe"
+	},
+	{
+		"id": "455982203",
+		"owner": "paperswithbacktest",
+		"repo": "awesome-systematic-trading"
+	},
+	{
+		"id": "564082244",
+		"owner": "swaggyP36000",
+		"repo": "TrollStore-IPAs"
+	},
+	{
+		"id": "390401992",
+		"owner": "salesforce",
+		"repo": "Merlion"
+	},
+	{
+		"id": "325758114",
+		"owner": "DingXiaoH",
+		"repo": "RepVGG"
+	},
+	{
+		"id": "85491050",
+		"owner": "tensorforce",
+		"repo": "tensorforce"
+	},
+	{
+		"id": "143090423",
+		"owner": "zjunlp",
+		"repo": "DeepKE"
+	},
+	{
+		"id": "88890801",
+		"owner": "tensorlayer",
+		"repo": "SRGAN"
+	},
+	{
+		"id": "137962296",
+		"owner": "llSourcell",
+		"repo": "learn_math_fast"
+	},
+	{
+		"id": "324336022",
+		"owner": "anushka23g",
+		"repo": "Complete-Placement-Preparation"
+	},
+	{
+		"id": "144504350",
+		"owner": "astorfi",
+		"repo": "Deep-Learning-Roadmap"
+	},
+	{
+		"id": "346188421",
+		"owner": "opengeos",
+		"repo": "leafmap"
+	},
+	{
+		"id": "180372347",
+		"owner": "HRNet",
+		"repo": "HRNet-Semantic-Segmentation"
+	},
+	{
+		"id": "385532537",
+		"owner": "towhee-io",
+		"repo": "towhee"
+	},
+	{
+		"id": "825429436",
+		"owner": "lllyasviel",
+		"repo": "Paints-UNDO"
+	},
+	{
+		"id": "124146367",
+		"owner": "adambielski",
+		"repo": "siamese-triplet"
+	},
+	{
+		"id": "85847327",
+		"owner": "xinghaochen",
+		"repo": "awesome-hand-pose-estimation"
+	},
+	{
+		"id": "153490452",
+		"owner": "sgrvinod",
+		"repo": "a-PyTorch-Tutorial-to-Object-Detection"
+	},
+	{
+		"id": "321426168",
+		"owner": "neuralmagic",
+		"repo": "deepsparse"
+	},
+	{
+		"id": "133867923",
+		"owner": "IntelLabs",
+		"repo": "nlp-architect"
+	},
+	{
+		"id": "298980599",
+		"owner": "Charmve",
+		"repo": "Surface-Defect-Detection"
+	},
+	{
+		"id": "72790118",
+		"owner": "jekil",
+		"repo": "awesome-hacking"
+	},
+	{
+		"id": "537972211",
+		"owner": "open-mmlab",
+		"repo": "mmyolo"
+	},
+	{
+		"id": "438303578",
+		"owner": "docarray",
+		"repo": "docarray"
+	},
+	{
+		"id": "382787545",
+		"owner": "opendilab",
+		"repo": "DI-engine"
+	},
+	{
+		"id": "215173055",
+		"owner": "QData",
+		"repo": "TextAttack"
+	},
+	{
+		"id": "141209050",
+		"owner": "RhinoSecurityLabs",
+		"repo": "cloudgoat"
+	},
+	{
+		"id": "86332745",
+		"owner": "yfeng95",
+		"repo": "GAN"
+	},
+	{
+		"id": "233910136",
+		"owner": "magenta",
+		"repo": "ddsp"
+	},
+	{
+		"id": "629789089",
+		"owner": "opengeos",
+		"repo": "segment-geospatial"
+	},
+	{
+		"id": "91730359",
+		"owner": "GoogleCloudPlatform",
+		"repo": "professional-services"
+	},
+	{
+		"id": "155518202",
+		"owner": "Tencent",
+		"repo": "PocketFlow"
+	},
+	{
+		"id": "160251929",
+		"owner": "tensorflow",
+		"repo": "ranking"
+	},
+	{
+		"id": "195106258",
+		"owner": "SuperCV",
+		"repo": "Book"
+	},
+	{
+		"id": "673412924",
+		"owner": "modelscope",
+		"repo": "swift"
+	},
+	{
+		"id": "202577283",
+		"owner": "resemble-ai",
+		"repo": "Resemblyzer"
+	},
+	{
+		"id": "743460469",
+		"owner": "hustvl",
+		"repo": "Vim"
+	},
+	{
+		"id": "396609706",
+		"owner": "salesforce",
+		"repo": "CodeT5"
+	},
+	{
+		"id": "203677928",
+		"owner": "mhxion",
+		"repo": "awesome-discord-communities"
+	},
+	{
+		"id": "104916606",
+		"owner": "cybertronai",
+		"repo": "gradient-checkpointing"
+	},
+	{
+		"id": "148087762",
+		"owner": "georgia-tech-db",
+		"repo": "evadb"
+	},
+	{
+		"id": "110852412",
+		"owner": "Farama-Foundation",
+		"repo": "HighwayEnv"
+	},
+	{
+		"id": "19918845",
+		"owner": "jamesmawm",
+		"repo": "High-Frequency-Trading-Model-with-IB"
+	},
+	{
+		"id": "162696927",
+		"owner": "ShawnBIT",
+		"repo": "UNet-family"
+	},
+	{
+		"id": "118840360",
+		"owner": "rail-berkeley",
+		"repo": "rlkit"
+	},
+	{
+		"id": "436510608",
+		"owner": "deepdoctection",
+		"repo": "deepdoctection"
+	},
+	{
+		"id": "477570603",
+		"owner": "gmh5225",
+		"repo": "awesome-game-security"
+	},
+	{
+		"id": "179401695",
+		"owner": "NVIDIA",
+		"repo": "MinkowskiEngine"
+	},
+	{
+		"id": "369428935",
+		"owner": "microsoft",
+		"repo": "torchgeo"
+	},
+	{
+		"id": "145761123",
+		"owner": "Trusted-AI",
+		"repo": "AIF360"
+	},
+	{
+		"id": "186166778",
+		"owner": "benedekrozemberczki",
+		"repo": "awesome-decision-tree-papers"
+	},
+	{
+		"id": "134691520",
+		"owner": "china-testing",
+		"repo": "python-api-tesing"
+	},
+	{
+		"id": "174076842",
+		"owner": "zhulf0804",
+		"repo": "3D-PointCloud"
+	},
+	{
+		"id": "6501727",
+		"owner": "swaroopch",
+		"repo": "byte-of-python"
+	},
+	{
+		"id": "153077001",
+		"owner": "D-X-Y",
+		"repo": "Awesome-AutoDL"
+	},
+	{
+		"id": "129936360",
+		"owner": "PennyLaneAI",
+		"repo": "pennylane"
+	},
+	{
+		"id": "775822419",
+		"owner": "Filimoa",
+		"repo": "open-parse"
+	},
+	{
+		"id": "161199191",
+		"owner": "Separius",
+		"repo": "awesome-sentence-embedding"
+	},
+	{
+		"id": "779669964",
+		"owner": "aixcoder-plugin",
+		"repo": "aiXcoder-7B"
+	},
+	{
+		"id": "170580540",
+		"owner": "pyro-ppl",
+		"repo": "numpyro"
+	},
+	{
+		"id": "298459550",
+		"owner": "HiLab-git",
+		"repo": "SSL4MIS"
+	},
+	{
+		"id": "178800521",
+		"owner": "switchablenorms",
+		"repo": "CelebAMask-HQ"
+	},
+	{
+		"id": "371257414",
+		"owner": "microsoft",
+		"repo": "Graphormer"
+	},
+	{
+		"id": "224148738",
+		"owner": "fepegar",
+		"repo": "torchio"
+	},
+	{
+		"id": "370434931",
+		"owner": "kingyiusuen",
+		"repo": "image-to-latex"
+	},
+	{
+		"id": "478484453",
+		"owner": "alibaba",
+		"repo": "EasyNLP"
+	},
+	{
+		"id": "268292479",
+		"owner": "ivan-bilan",
+		"repo": "The-NLP-Pandect"
+	},
+	{
+		"id": "369537808",
+		"owner": "alibaba",
+		"repo": "AliceMind"
+	},
+	{
+		"id": "89960611",
+		"owner": "13o-bbr-bbq",
+		"repo": "machine_learning_security"
+	},
+	{
+		"id": "108992863",
+		"owner": "r9y9",
+		"repo": "deepvoice3_pytorch"
+	},
+	{
+		"id": "223495162",
+		"owner": "snap-stanford",
+		"repo": "ogb"
+	},
+	{
+		"id": "357891182",
+		"owner": "open-mmlab",
+		"repo": "mmgeneration"
+	},
+	{
+		"id": "80655163",
+		"owner": "ellisdg",
+		"repo": "3DUnetCNN"
+	},
+	{
+		"id": "250979951",
+		"owner": "ZiyaoGeng",
+		"repo": "RecLearn"
+	},
+	{
+		"id": "479118982",
+		"owner": "aolofsson",
+		"repo": "awesome-opensource-hardware"
+	},
+	{
+		"id": "161322880",
+		"owner": "ahmedfgad",
+		"repo": "GeneticAlgorithmPython"
+	},
+	{
+		"id": "146686946",
+		"owner": "zengyh1900",
+		"repo": "Awesome-Image-Inpainting"
+	},
+	{
+		"id": "139912879",
+		"owner": "kk7nc",
+		"repo": "Text_Classification"
+	},
+	{
+		"id": "53414649",
+		"owner": "mpatacchiola",
+		"repo": "deepgaze"
+	},
+	{
+		"id": "69593303",
+		"owner": "CppCon",
+		"repo": "CppCon2017"
+	},
+	{
+		"id": "179858671",
+		"owner": "luigifreda",
+		"repo": "pyslam"
+	},
+	{
+		"id": "623751571",
+		"owner": "ytongbai",
+		"repo": "LVM"
+	},
+	{
+		"id": "176315637",
+		"owner": "THUDM",
+		"repo": "CogDL"
+	},
+	{
+		"id": "606266313",
+		"owner": "apple",
+		"repo": "axlearn"
+	},
+	{
+		"id": "198412763",
+		"owner": "black0017",
+		"repo": "MedicalZooPytorch"
+	},
+	{
+		"id": "106151231",
+		"owner": "thunlp",
+		"repo": "OpenNE"
+	},
+	{
+		"id": "151904296",
+		"owner": "VivekPa",
+		"repo": "AIAlpha"
+	},
+	{
+		"id": "280043130",
+		"owner": "graph4ai",
+		"repo": "graph4nlp"
+	},
+	{
+		"id": "125444399",
+		"owner": "mbadry1",
+		"repo": "Top-Deep-Learning"
+	},
+	{
+		"id": "167628014",
+		"owner": "chemprop",
+		"repo": "chemprop"
+	},
+	{
+		"id": "112059219",
+		"owner": "victordibia",
+		"repo": "handtracking"
+	},
+	{
+		"id": "137240967",
+		"owner": "NVlabs",
+		"repo": "PWC-Net"
+	},
+	{
+		"id": "157896616",
+		"owner": "LIAAD",
+		"repo": "yake"
+	},
+	{
+		"id": "89620113",
+		"owner": "DT42",
+		"repo": "BerryNet"
+	},
+	{
+		"id": "182781810",
+		"owner": "msgi",
+		"repo": "nlp-journey"
+	},
+	{
+		"id": "188821801",
+		"owner": "benedekrozemberczki",
+		"repo": "awesome-fraud-detection-papers"
+	},
+	{
+		"id": "349947919",
+		"owner": "Thinklab-SJTU",
+		"repo": "awesome-ml4co"
+	},
+	{
+		"id": "60142885",
+		"owner": "ml4a",
+		"repo": "ml4a"
+	},
+	{
+		"id": "40656806",
+		"owner": "maxpumperla",
+		"repo": "elephas"
+	},
+	{
+		"id": "191286408",
+		"owner": "PaddlePaddle",
+		"repo": "PGL"
+	},
+	{
+		"id": "706012006",
+		"owner": "Kedreamix",
+		"repo": "Linly-Talker"
+	},
+	{
+		"id": "393489989",
+		"owner": "mikeroyal",
+		"repo": "Digital-Forensics-Guide"
+	},
+	{
+		"id": "113194336",
+		"owner": "mbadry1",
+		"repo": "CS231n-2017-Summary"
+	},
+	{
+		"id": "646974749",
+		"owner": "AlanChen4",
+		"repo": "Summer-2024-SWE-Internships"
+	},
+	{
+		"id": "267196339",
+		"owner": "ChandlerBang",
+		"repo": "awesome-self-supervised-gnn"
+	},
+	{
+		"id": "263163293",
+		"owner": "google-research",
+		"repo": "big_transfer"
+	},
+	{
+		"id": "190989157",
+		"owner": "thunlp",
+		"repo": "TAADpapers"
+	},
+	{
+		"id": "147035039",
+		"owner": "juand-r",
+		"repo": "entity-recognition-datasets"
+	},
+	{
+		"id": "394994747",
+		"owner": "jina-ai",
+		"repo": "finetuner"
+	},
+	{
+		"id": "181388576",
+		"owner": "microsoft",
+		"repo": "NeuronBlocks"
+	},
+	{
+		"id": "769149672",
+		"owner": "LLaVA-VL",
+		"repo": "LLaVA-NeXT"
+	},
+	{
+		"id": "90050085",
+		"owner": "DLTK",
+		"repo": "DLTK"
+	},
+	{
+		"id": "280026201",
+		"owner": "google",
+		"repo": "uncertainty-baselines"
+	},
+	{
+		"id": "311379516",
+		"owner": "capitalone",
+		"repo": "DataProfiler"
+	},
+	{
+		"id": "494658282",
+		"owner": "youngfish42",
+		"repo": "Awesome-FL"
+	},
+	{
+		"id": "56639410",
+		"owner": "DragonComputer",
+		"repo": "Dragonfire"
+	},
+	{
+		"id": "34814001",
+		"owner": "trailofbits",
+		"repo": "publications"
+	},
+	{
+		"id": "675859069",
+		"owner": "IAHispano",
+		"repo": "Applio"
+	},
+	{
+		"id": "206429675",
+		"owner": "microsoft",
+		"repo": "AI"
+	},
+	{
+		"id": "293218224",
+		"owner": "guyulongcs",
+		"repo": "Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising"
+	},
+	{
+		"id": "227366838",
+		"owner": "janosh",
+		"repo": "awesome-normalizing-flows"
+	},
+	{
+		"id": "101113923",
+		"owner": "yangyanli",
+		"repo": "PointCNN"
+	},
+	{
+		"id": "225903949",
+		"owner": "tum-pbs",
+		"repo": "PhiFlow"
+	},
+	{
+		"id": "102089807",
+		"owner": "fendouai",
+		"repo": "Awesome-TensorFlow-Chinese"
+	},
+	{
+		"id": "290870599",
+		"owner": "qxresearch",
+		"repo": "qxresearch-event-1"
+	},
+	{
+		"id": "204839594",
+		"owner": "HRNet",
+		"repo": "HigherHRNet-Human-Pose-Estimation"
+	},
+	{
+		"id": "33984438",
+		"owner": "karolpiczak",
+		"repo": "ESC-50"
+	},
+	{
+		"id": "292225878",
+		"owner": "TsingZ0",
+		"repo": "PFLlib"
+	},
+	{
+		"id": "94945792",
+		"owner": "toolleeo",
+		"repo": "cli-apps"
+	},
+	{
+		"id": "154900564",
+		"owner": "facebookresearch",
+		"repo": "fastMRI"
+	},
+	{
+		"id": "199870084",
+		"owner": "Eurus-Holmes",
+		"repo": "Awesome-Multimodal-Research"
+	},
+	{
+		"id": "429607784",
+		"owner": "pygod-team",
+		"repo": "pygod"
+	},
+	{
+		"id": "174281291",
+		"owner": "PolyAI-LDN",
+		"repo": "conversational-datasets"
+	},
+	{
+		"id": "65546193",
+		"owner": "orobix",
+		"repo": "retina-unet"
+	},
+	{
+		"id": "324749860",
+		"owner": "amrzv",
+		"repo": "awesome-colab-notebooks"
+	},
+	{
+		"id": "89568797",
+		"owner": "shicai",
+		"repo": "MobileNet-Caffe"
+	},
+	{
+		"id": "97002861",
+		"owner": "ljvmiranda921",
+		"repo": "pyswarms"
+	},
+	{
+		"id": "737696911",
+		"owner": "a-real-ai",
+		"repo": "pywinassistant"
+	},
+	{
+		"id": "427079067",
+		"owner": "pypose",
+		"repo": "pypose"
+	},
+	{
+		"id": "200645982",
+		"owner": "ShannonAI",
+		"repo": "service-streamer"
+	},
+	{
+		"id": "109533627",
+		"owner": "hunkim",
+		"repo": "deep_architecture_genealogy"
+	},
+	{
+		"id": "278384289",
+		"owner": "bgavran",
+		"repo": "Category_Theory_Machine_Learning"
+	},
+	{
+		"id": "216756473",
+		"owner": "GeorgeDu",
+		"repo": "vision-based-robotic-grasping"
+	},
+	{
+		"id": "160139764",
+		"owner": "rail-berkeley",
+		"repo": "softlearning"
+	},
+	{
+		"id": "307191665",
+		"owner": "obsei",
+		"repo": "obsei"
+	},
+	{
+		"id": "113516939",
+		"owner": "liyaguang",
+		"repo": "DCRNN"
+	},
+	{
+		"id": "525251235",
+		"owner": "tangxyw",
+		"repo": "RecSysPapers"
+	},
+	{
+		"id": "293036210",
+		"owner": "DengBoCong",
+		"repo": "nlp-paper"
+	},
+	{
+		"id": "24829371",
+		"owner": "mila-iqia",
+		"repo": "blocks"
+	},
+	{
+		"id": "334760721",
+		"owner": "The-AI-Summer",
+		"repo": "self-attention-cv"
+	},
+	{
+		"id": "623499246",
+		"owner": "soulteary",
+		"repo": "docker-prompt-generator"
+	},
+	{
+		"id": "198853610",
+		"owner": "PengyiZhang",
+		"repo": "SlimYOLOv3"
+	},
+	{
+		"id": "154843614",
+		"owner": "openvinotoolkit",
+		"repo": "training_extensions"
+	},
+	{
+		"id": "761236129",
+		"owner": "mini-sora",
+		"repo": "minisora"
+	},
+	{
+		"id": "59907561",
+		"owner": "Cloud-CV",
+		"repo": "Fabrik"
+	},
+	{
+		"id": "116226076",
+		"owner": "talkpython",
+		"repo": "mastering-pycharm-course"
+	},
+	{
+		"id": "339353336",
+		"owner": "freeCodeCamp",
+		"repo": "awesome-quincy-larson-emails"
+	},
+	{
+		"id": "135559956",
+		"owner": "sentinel-hub",
+		"repo": "eo-learn"
+	},
+	{
+		"id": "296615591",
+		"owner": "abhishek-ch",
+		"repo": "around-dataengineering"
+	},
+	{
+		"id": "396518665",
+		"owner": "mikeroyal",
+		"repo": "Photogrammetry-Guide"
+	},
+	{
+		"id": "625876964",
+		"owner": "open-mmlab",
+		"repo": "playground"
+	},
+	{
+		"id": "216051909",
+		"owner": "nfstream",
+		"repo": "nfstream"
+	},
+	{
+		"id": "195163550",
+		"owner": "Res2Net",
+		"repo": "Res2Net-PretrainedModels"
+	},
+	{
+		"id": "101236992",
+		"owner": "flow-project",
+		"repo": "flow"
+	},
+	{
+		"id": "104710554",
+		"owner": "MaybeShewill-CV",
+		"repo": "CRNN_Tensorflow"
+	},
+	{
+		"id": "182054091",
+		"owner": "getkeops",
+		"repo": "keops"
+	},
+	{
+		"id": "180372680",
+		"owner": "HRNet",
+		"repo": "HRNet-Facial-Landmark-Detection"
+	},
+	{
+		"id": "255074156",
+		"owner": "ayoolaolafenwa",
+		"repo": "PixelLib"
+	},
+	{
+		"id": "110565580",
+		"owner": "microsoft",
+		"repo": "gated-graph-neural-network-samples"
+	},
+	{
+		"id": "627261340",
+		"owner": "FreedomIntelligence",
+		"repo": "HuatuoGPT"
+	},
+	{
+		"id": "57151909",
+		"owner": "deepmedic",
+		"repo": "deepmedic"
+	},
+	{
+		"id": "181554939",
+		"owner": "videoflow",
+		"repo": "videoflow"
+	},
+	{
+		"id": "65410692",
+		"owner": "unrealcv",
+		"repo": "synthetic-computer-vision"
+	},
+	{
+		"id": "433516569",
+		"owner": "yuval-alaluf",
+		"repo": "hyperstyle"
+	},
+	{
+		"id": "288539712",
+		"owner": "NVlabs",
+		"repo": "NVAE"
+	},
+	{
+		"id": "547667434",
+		"owner": "opendilab",
+		"repo": "LightZero"
+	},
+	{
+		"id": "186163475",
+		"owner": "benedekrozemberczki",
+		"repo": "awesome-gradient-boosting-papers"
+	},
+	{
+		"id": "562036379",
+		"owner": "MedicineToken",
+		"repo": "MedSegDiff"
+	},
+	{
+		"id": "192620864",
+		"owner": "uber-archive",
+		"repo": "plato-research-dialogue-system"
+	},
+	{
+		"id": "108328408",
+		"owner": "maxpumperla",
+		"repo": "deep_learning_and_the_game_of_go"
+	},
+	{
+		"id": "180518813",
+		"owner": "HRNet",
+		"repo": "HRNet-Image-Classification"
+	},
+	{
+		"id": "109284053",
+		"owner": "openfaas",
+		"repo": "workshop"
+	},
+	{
+		"id": "99671701",
+		"owner": "movidius",
+		"repo": "ncappzoo"
+	},
+	{
+		"id": "81520737",
+		"owner": "joeddav",
+		"repo": "devol"
+	},
+	{
+		"id": "104583244",
+		"owner": "jonkhler",
+		"repo": "s2cnn"
+	},
+	{
+		"id": "96211155",
+		"owner": "gempy-project",
+		"repo": "gempy"
+	},
+	{
+		"id": "411115408",
+		"owner": "PKU-TANGENT",
+		"repo": "nlp-tutorial"
+	},
+	{
+		"id": "2038135",
+		"owner": "echen",
+		"repo": "restricted-boltzmann-machines"
+	},
+	{
+		"id": "231077707",
+		"owner": "yinyunie",
+		"repo": "3D-Shape-Analysis-Paper-List"
+	},
+	{
+		"id": "572620767",
+		"owner": "ExtensityAI",
+		"repo": "symbolicai"
+	},
+	{
+		"id": "284780206",
+		"owner": "sunlabuiuc",
+		"repo": "PyHealth"
+	},
+	{
+		"id": "114832696",
+		"owner": "thoughtworksarts",
+		"repo": "EmoPy"
+	},
+	{
+		"id": "111204713",
+		"owner": "mrakgr",
+		"repo": "The-Spiral-Language"
+	},
+	{
+		"id": "647754741",
+		"owner": "snwfdhmp",
+		"repo": "awesome-gpt-prompt-engineering"
+	},
+	{
+		"id": "55444998",
+		"owner": "songgc",
+		"repo": "TF-recomm"
+	},
+	{
+		"id": "171135219",
+		"owner": "qiaoguan",
+		"repo": "deep-ctr-prediction"
+	},
+	{
+		"id": "686948172",
+		"owner": "DmitryRyumin",
+		"repo": "ICCV-2023-Papers"
+	},
+	{
+		"id": "115538244",
+		"owner": "lopusz",
+		"repo": "awesome-interpretable-machine-learning"
+	},
+	{
+		"id": "120153084",
+		"owner": "lucasjinreal",
+		"repo": "alfred"
+	},
+	{
+		"id": "96006792",
+		"owner": "kevingo",
+		"repo": "system-design-primer-zh-tw"
+	},
+	{
+		"id": "128145722",
+		"owner": "andyzeng",
+		"repo": "visual-pushing-grasping"
+	},
+	{
+		"id": "237742797",
+		"owner": "jankrepl",
+		"repo": "deepdow"
+	},
+	{
+		"id": "475477908",
+		"owner": "WenjieDu",
+		"repo": "PyPOTS"
+	},
+	{
+		"id": "63911620",
+		"owner": "Guanghan",
+		"repo": "ROLO"
+	},
+	{
+		"id": "473188634",
+		"owner": "zama-ai",
+		"repo": "concrete-ml"
+	},
+	{
+		"id": "567281014",
+		"owner": "awslabs",
+		"repo": "fortuna"
+	},
+	{
+		"id": "370646033",
+		"owner": "BaguaSys",
+		"repo": "bagua"
+	},
+	{
+		"id": "139953476",
+		"owner": "easezyc",
+		"repo": "deep-transfer-learning"
+	},
+	{
+		"id": "412126778",
+		"owner": "reczoo",
+		"repo": "FuxiCTR"
+	},
+	{
+		"id": "322270485",
+		"owner": "graphdeeplearning",
+		"repo": "graphtransformer"
+	},
+	{
+		"id": "211948492",
+		"owner": "baal-org",
+		"repo": "baal"
+	},
+	{
+		"id": "141242285",
+		"owner": "PreferredAI",
+		"repo": "cornac"
+	},
+	{
+		"id": "292165029",
+		"owner": "alibaba",
+		"repo": "EasyTransfer"
+	},
+	{
+		"id": "243782399",
+		"owner": "cszn",
+		"repo": "USRNet"
+	},
+	{
+		"id": "400528139",
+		"owner": "tinkoff-ai",
+		"repo": "etna"
+	},
+	{
+		"id": "586233738",
+		"owner": "botesjuan",
+		"repo": "Burp-Suite-Certified-Practitioner-Exam-Study"
+	},
+	{
+		"id": "236841928",
+		"owner": "aws",
+		"repo": "aws-graviton-getting-started"
+	},
+	{
+		"id": "593782352",
+		"owner": "NVIDIA",
+		"repo": "modulus"
+	},
+	{
+		"id": "247671009",
+		"owner": "thieu1995",
+		"repo": "mealpy"
+	},
+	{
+		"id": "289523033",
+		"owner": "JohnSnowLabs",
+		"repo": "nlu"
+	},
+	{
+		"id": "273667533",
+		"owner": "huawei-noah",
+		"repo": "vega"
+	},
+	{
+		"id": "109418434",
+		"owner": "shubhomoydas",
+		"repo": "ad_examples"
+	},
+	{
+		"id": "415020649",
+		"owner": "Vincentqyw",
+		"repo": "cv-arxiv-daily"
+	},
+	{
+		"id": "748890475",
+		"owner": "piercefreeman",
+		"repo": "mountaineer"
+	},
+	{
+		"id": "138102346",
+		"owner": "sadighian",
+		"repo": "crypto-rl"
+	},
+	{
+		"id": "620082084",
+		"owner": "WangRongsheng",
+		"repo": "ChatGenTitle"
+	},
+	{
+		"id": "500084281",
+		"owner": "Minqi824",
+		"repo": "ADBench"
+	},
+	{
+		"id": "200759999",
+		"owner": "DingXiaoH",
+		"repo": "ACNet"
+	},
+	{
+		"id": "163993394",
+		"owner": "ShawnyXiao",
+		"repo": "TextClassification-Keras"
+	},
+	{
+		"id": "4830434",
+		"owner": "hermanhermitage",
+		"repo": "videocoreiv"
+	},
+	{
+		"id": "74182569",
+		"owner": "deepgram",
+		"repo": "kur"
+	},
+	{
+		"id": "394181860",
+		"owner": "idrl-lab",
+		"repo": "PINNpapers"
+	},
+	{
+		"id": "106310629",
+		"owner": "githubharald",
+		"repo": "CTCDecoder"
+	},
+	{
+		"id": "38389012",
+		"owner": "charlax",
+		"repo": "python-education"
+	},
+	{
+		"id": "206839844",
+		"owner": "Thinklab-SJTU",
+		"repo": "ThinkMatch"
+	},
+	{
+		"id": "314704349",
+		"owner": "PaddlePaddle",
+		"repo": "PaddleHelix"
+	},
+	{
+		"id": "60138482",
+		"owner": "kundajelab",
+		"repo": "deeplift"
+	},
+	{
+		"id": "395674127",
+		"owner": "murufeng",
+		"repo": "awesome_lightweight_networks"
+	},
+	{
+		"id": "173234868",
+		"owner": "geekyutao",
+		"repo": "Image-Inpainting"
+	},
+	{
+		"id": "665169534",
+		"owner": "OTFCG",
+		"repo": "Awesome-Game-Analysis"
+	},
+	{
+		"id": "447136192",
+		"owner": "Sense-X",
+		"repo": "UniFormer"
+	},
+	{
+		"id": "131947745",
+		"owner": "ej0cl6",
+		"repo": "deep-active-learning"
+	},
+	{
+		"id": "233721276",
+		"owner": "dxli94",
+		"repo": "WLASL"
+	},
+	{
+		"id": "67670269",
+		"owner": "YerevaNN",
+		"repo": "mimic3-benchmarks"
+	},
+	{
+		"id": "192405566",
+		"owner": "benedekrozemberczki",
+		"repo": "ClusterGCN"
+	},
+	{
+		"id": "146885631",
+		"owner": "pranz24",
+		"repo": "pytorch-soft-actor-critic"
+	},
+	{
+		"id": "409216041",
+		"owner": "kahst",
+		"repo": "BirdNET-Analyzer"
+	},
+	{
+		"id": "675887592",
+		"owner": "LiZhengXiao99",
+		"repo": "Navigation-Learning"
+	},
+	{
+		"id": "431496624",
+		"owner": "yueliu1999",
+		"repo": "Awesome-Deep-Graph-Clustering"
+	},
+	{
+		"id": "113267829",
+		"owner": "guanfuchen",
+		"repo": "semseg"
+	},
+	{
+		"id": "92664599",
+		"owner": "kozistr",
+		"repo": "Awesome-GANs"
+	},
+	{
+		"id": "71961530",
+		"owner": "kaonashi-tyc",
+		"repo": "Rewrite"
+	},
+	{
+		"id": "147224878",
+		"owner": "atomistic-machine-learning",
+		"repo": "schnetpack"
+	},
+	{
+		"id": "71506455",
+		"owner": "ayushoriginal",
+		"repo": "Sentiment-Analysis-Twitter"
+	},
+	{
+		"id": "403829741",
+		"owner": "PaddlePaddle",
+		"repo": "RocketQA"
+	},
+	{
+		"id": "151186173",
+		"owner": "kymatio",
+		"repo": "kymatio"
+	},
+	{
+		"id": "136059268",
+		"owner": "baidu-research",
+		"repo": "NCRF"
+	},
+	{
+		"id": "55712155",
+		"owner": "hidasib",
+		"repo": "GRU4Rec"
+	},
+	{
+		"id": "714409040",
+		"owner": "disler",
+		"repo": "multi-agent-postgres-data-analytics"
+	},
+	{
+		"id": "320460952",
+		"owner": "mit-han-lab",
+		"repo": "tinyml"
+	},
+	{
+		"id": "51836040",
+		"owner": "StijnMiroslav",
+		"repo": "top-starred-devs-and-repos-to-follow"
+	},
+	{
+		"id": "202476819",
+		"owner": "AzatAI",
+		"repo": "cs_books"
+	},
+	{
+		"id": "185484668",
+		"owner": "Guanghan",
+		"repo": "lighttrack"
+	},
+	{
+		"id": "37345937",
+		"owner": "crazyhottommy",
+		"repo": "ChIP-seq-analysis"
+	},
+	{
+		"id": "125590460",
+		"owner": "linksense",
+		"repo": "LightNet"
+	},
+	{
+		"id": "181688929",
+		"owner": "xavysp",
+		"repo": "DexiNed"
+	},
+	{
+		"id": "128013461",
+		"owner": "je-suis-tm",
+		"repo": "web-scraping"
+	},
+	{
+		"id": "203811620",
+		"owner": "rapidsai",
+		"repo": "cusignal"
+	},
+	{
+		"id": "95964940",
+		"owner": "firmianay",
+		"repo": "security-paper"
+	},
+	{
+		"id": "180826719",
+		"owner": "stevenygd",
+		"repo": "PointFlow"
+	},
+	{
+		"id": "272108471",
+		"owner": "chrieke",
+		"repo": "awesome-geospatial-companies"
+	},
+	{
+		"id": "284084737",
+		"owner": "YimianDai",
+		"repo": "open-aff"
+	},
+	{
+		"id": "258124207",
+		"owner": "awslabs",
+		"repo": "dgl-lifesci"
+	},
+	{
+		"id": "176374098",
+		"owner": "larq",
+		"repo": "larq"
+	},
+	{
+		"id": "639490725",
+		"owner": "kuleshov-group",
+		"repo": "llmtools"
+	},
+	{
+		"id": "249065239",
+		"owner": "vinits5",
+		"repo": "learning3d"
+	},
+	{
+		"id": "223415751",
+		"owner": "safe-graph",
+		"repo": "DGFraud"
+	},
+	{
+		"id": "193898092",
+		"owner": "stepjam",
+		"repo": "PyRep"
+	},
+	{
+		"id": "154412076",
+		"owner": "intel",
+		"repo": "ai-reference-models"
+	},
+	{
+		"id": "73790321",
+		"owner": "cauchyturing",
+		"repo": "UCR_Time_Series_Classification_Deep_Learning_Baseline"
+	},
+	{
+		"id": "153133227",
+		"owner": "joeynmt",
+		"repo": "joeynmt"
+	},
+	{
+		"id": "121932004",
+		"owner": "omerbsezer",
+		"repo": "LSTM_RNN_Tutorials_with_Demo"
+	},
+	{
+		"id": "177415822",
+		"owner": "cisco",
+		"repo": "mindmeld"
+	},
+	{
+		"id": "374368098",
+		"owner": "openspeech-team",
+		"repo": "openspeech"
+	},
+	{
+		"id": "243942197",
+		"owner": "thunlp",
+		"repo": "OpenAttack"
+	},
+	{
+		"id": "156307876",
+		"owner": "liaoxiong3x",
+		"repo": "DeepCreamPy"
+	},
+	{
+		"id": "117385390",
+		"owner": "TianhongDai",
+		"repo": "reinforcement-learning-algorithms"
+	},
+	{
+		"id": "248690852",
+		"owner": "DataCanvasIO",
+		"repo": "DeepTables"
+	},
+	{
+		"id": "327025589",
+		"owner": "PruneTruong",
+		"repo": "DenseMatching"
+	},
+	{
+		"id": "627240200",
+		"owner": "PharMolix",
+		"repo": "OpenBioMed"
+	},
+	{
+		"id": "323426984",
+		"owner": "yingkaisha",
+		"repo": "keras-unet-collection"
+	},
+	{
+		"id": "798932873",
+		"owner": "adithya-s-k",
+		"repo": "marker-api"
+	},
+	{
+		"id": "326374508",
+		"owner": "mostafatouny",
+		"repo": "awesome-theoretical-computer-science"
+	},
+	{
+		"id": "473506511",
+		"owner": "meta-soul",
+		"repo": "MetaSpore"
+	},
+	{
+		"id": "162187816",
+		"owner": "LIVIAETS",
+		"repo": "boundary-loss"
+	},
+	{
+		"id": "342885422",
+		"owner": "qiskit-community",
+		"repo": "qiskit-machine-learning"
+	},
+	{
+		"id": "258477446",
+		"owner": "microsoft",
+		"repo": "DiscoFaceGAN"
+	},
+	{
+		"id": "43489539",
+		"owner": "UKPLab",
+		"repo": "deeplearning4nlp-tutorial"
+	},
+	{
+		"id": "205158640",
+		"owner": "chrischoy",
+		"repo": "FCGF"
+	},
+	{
+		"id": "126902549",
+		"owner": "mbadry1",
+		"repo": "Trending-Deep-Learning"
+	},
+	{
+		"id": "273564830",
+		"owner": "RobustBench",
+		"repo": "robustbench"
+	},
+	{
+		"id": "191923503",
+		"owner": "acmbpdc",
+		"repo": "openlib.cs"
+	},
+	{
+		"id": "64122944",
+		"owner": "cerndb",
+		"repo": "dist-keras"
+	},
+	{
+		"id": "112321712",
+		"owner": "chainer",
+		"repo": "chainer-chemistry"
+	},
+	{
+		"id": "114732346",
+		"owner": "yinguobing",
+		"repo": "cnn-facial-landmark"
+	},
+	{
+		"id": "198997104",
+		"owner": "tensorlayer",
+		"repo": "RLzoo"
+	},
+	{
+		"id": "313700156",
+		"owner": "sophos",
+		"repo": "SOREL-20M"
+	},
+	{
+		"id": "102471571",
+		"owner": "umbertogriffo",
+		"repo": "Predictive-Maintenance-using-LSTM"
+	},
+	{
+		"id": "411337492",
+		"owner": "wenet-e2e",
+		"repo": "wespeaker"
+	},
+	{
+		"id": "293755225",
+		"owner": "opendr-eu",
+		"repo": "opendr"
+	},
+	{
+		"id": "212275874",
+		"owner": "oarriaga",
+		"repo": "paz"
+	},
+	{
+		"id": "177594519",
+		"owner": "shamangary",
+		"repo": "FSA-Net"
+	},
+	{
+		"id": "236909723",
+		"owner": "OverLordGoldDragon",
+		"repo": "ssqueezepy"
+	},
+	{
+		"id": "251697485",
+		"owner": "kwotsin",
+		"repo": "mimicry"
+	},
+	{
+		"id": "51442999",
+		"owner": "python-cmd2",
+		"repo": "cmd2"
+	},
+	{
+		"id": "91441209",
+		"owner": "grycap",
+		"repo": "scar"
+	},
+	{
+		"id": "218481618",
+		"owner": "sooftware",
+		"repo": "kospeech"
+	},
+	{
+		"id": "285743816",
+		"owner": "xiaoqian19940510",
+		"repo": "text-classification-surveys"
+	},
+	{
+		"id": "164089752",
+		"owner": "PacktPublishing",
+		"repo": "Learning-OpenCV-4-Computer-Vision-with-Python-Third-Edition"
+	},
+	{
+		"id": "119060297",
+		"owner": "nwojke",
+		"repo": "cosine_metric_learning"
+	},
+	{
+		"id": "391777965",
+		"owner": "leondgarse",
+		"repo": "keras_cv_attention_models"
+	},
+	{
+		"id": "388876833",
+		"owner": "NVIDIA",
+		"repo": "NVFlare"
+	},
+	{
+		"id": "239436776",
+		"owner": "sgrvinod",
+		"repo": "a-PyTorch-Tutorial-to-Super-Resolution"
+	},
+	{
+		"id": "351826770",
+		"owner": "Project-MONAI",
+		"repo": "MONAILabel"
+	},
+	{
+		"id": "428599616",
+		"owner": "IndustryEssentials",
+		"repo": "ymir"
+	},
+	{
+		"id": "175599901",
+		"owner": "LPDI-EPFL",
+		"repo": "masif"
+	},
+	{
+		"id": "110142990",
+		"owner": "Bartzi",
+		"repo": "see"
+	},
+	{
+		"id": "465182360",
+		"owner": "hustvl",
+		"repo": "SparseInst"
+	},
+	{
+		"id": "316997159",
+		"owner": "AutoViML",
+		"repo": "featurewiz"
+	},
+	{
+		"id": "133932110",
+		"owner": "PacktPublishing",
+		"repo": "Django-2-by-Example"
+	},
+	{
+		"id": "93446064",
+		"owner": "eleurent",
+		"repo": "rl-agents"
+	},
+	{
+		"id": "81897903",
+		"owner": "PacktPublishing",
+		"repo": "TensorFlow-Machine-Learning-Cookbook"
+	},
+	{
+		"id": "130360032",
+		"owner": "ahmedfgad",
+		"repo": "NumPyCNN"
+	},
+	{
+		"id": "444800849",
+		"owner": "njustkmg",
+		"repo": "OMML"
+	},
+	{
+		"id": "130369068",
+		"owner": "KDD-OpenSource",
+		"repo": "DeepADoTS"
+	},
+	{
+		"id": "269365590",
+		"owner": "DeepRegNet",
+		"repo": "DeepReg"
+	},
+	{
+		"id": "63632527",
+		"owner": "mlachmish",
+		"repo": "MusicGenreClassification"
+	},
+	{
+		"id": "169447021",
+		"owner": "cheind",
+		"repo": "pytorch-blender"
+	},
+	{
+		"id": "61609586",
+		"owner": "cchio",
+		"repo": "deep-pwning"
+	},
+	{
+		"id": "307342292",
+		"owner": "RelevanceAI",
+		"repo": "vectorhub"
+	},
+	{
+		"id": "112776167",
+		"owner": "anhaidgroup",
+		"repo": "deepmatcher"
+	},
+	{
+		"id": "241710430",
+		"owner": "dso-org",
+		"repo": "deep-symbolic-optimization"
+	},
+	{
+		"id": "57242918",
+		"owner": "vladfi1",
+		"repo": "phillip"
+	},
+	{
+		"id": "61393415",
+		"owner": "monikkinom",
+		"repo": "ner-lstm"
+	},
+	{
+		"id": "266978147",
+		"owner": "shruti-jadon",
+		"repo": "Semantic-Segmentation-Loss-Functions"
+	},
+	{
+		"id": "161854576",
+		"owner": "PINTO0309",
+		"repo": "OpenVINO-YoloV3"
+	},
+	{
+		"id": "432768606",
+		"owner": "lucidrains",
+		"repo": "nuwa-pytorch"
+	},
+	{
+		"id": "492079888",
+		"owner": "TRI-ML",
+		"repo": "vidar"
+	},
+	{
+		"id": "198984224",
+		"owner": "EdisonLeeeee",
+		"repo": "Graph-Adversarial-Learning"
+	},
+	{
+		"id": "251621744",
+		"owner": "Yonghongwei",
+		"repo": "Gradient-Centralization"
+	},
+	{
+		"id": "434507886",
+		"owner": "tensorlayer",
+		"repo": "TensorLayerX"
+	},
+	{
+		"id": "143866262",
+		"owner": "tobybreckon",
+		"repo": "fire-detection-cnn"
+	},
+	{
+		"id": "165829628",
+		"owner": "ranandalon",
+		"repo": "mtl"
+	},
+	{
+		"id": "157810638",
+		"owner": "espressif",
+		"repo": "esp-dl"
+	},
+	{
+		"id": "207753171",
+		"owner": "calmiLovesAI",
+		"repo": "Basic_CNNs_TensorFlow2"
+	},
+	{
+		"id": "390534061",
+		"owner": "chaitjo",
+		"repo": "efficient-gnns"
+	},
+	{
+		"id": "479489097",
+		"owner": "metaopt",
+		"repo": "torchopt"
+	},
+	{
+		"id": "130831822",
+		"owner": "gidariss",
+		"repo": "FewShotWithoutForgetting"
+	},
+	{
+		"id": "137566726",
+		"owner": "swook",
+		"repo": "GazeML"
+	},
+	{
+		"id": "103471501",
+		"owner": "castorini",
+		"repo": "honk"
+	},
+	{
+		"id": "304958084",
+		"owner": "mikeroyal",
+		"repo": "Machine-Learning-Guide"
+	},
+	{
+		"id": "37105160",
+		"owner": "jamesmawm",
+		"repo": "Mastering-Python-for-Finance-source-codes"
+	},
+	{
+		"id": "161100560",
+		"owner": "medipixel",
+		"repo": "rl_algorithms"
+	},
+	{
+		"id": "341569637",
+		"owner": "kaixindelele",
+		"repo": "DRLib"
+	},
+	{
+		"id": "322350492",
+		"owner": "IntelLabs",
+		"repo": "bayesian-torch"
+	},
+	{
+		"id": "288543036",
+		"owner": "saimj7",
+		"repo": "People-Counting-in-Real-Time"
+	},
+	{
+		"id": "155687643",
+		"owner": "SimonBlanke",
+		"repo": "Hyperactive"
+	},
+	{
+		"id": "181527837",
+		"owner": "uvipen",
+		"repo": "Flappy-bird-deep-Q-learning-pytorch"
+	},
+	{
+		"id": "38272201",
+		"owner": "jcjohnson",
+		"repo": "cnn-vis"
+	},
+	{
+		"id": "210873203",
+		"owner": "PaddlePaddle",
+		"repo": "PaddleFL"
+	},
+	{
+		"id": "268875034",
+		"owner": "google",
+		"repo": "caliban"
+	},
+	{
+		"id": "164441115",
+		"owner": "eecn",
+		"repo": "Hyperspectral-Classification"
+	},
+	{
+		"id": "159827756",
+		"owner": "richmondu",
+		"repo": "libfaceid"
+	},
+	{
+		"id": "115991064",
+		"owner": "khanhnamle1994",
+		"repo": "natural-language-processing"
+	},
+	{
+		"id": "490954397",
+		"owner": "ra1nty",
+		"repo": "DXcam"
+	},
+	{
+		"id": "411286643",
+		"owner": "Vanint",
+		"repo": "Awesome-LongTailed-Learning"
+	},
+	{
+		"id": "472280519",
+		"owner": "xavctn",
+		"repo": "img2table"
+	},
+	{
+		"id": "197865066",
+		"owner": "luyanger1799",
+		"repo": "Amazing-Semantic-Segmentation"
+	},
+	{
+		"id": "56260814",
+		"owner": "gy910210",
+		"repo": "rnn-from-scratch"
+	},
+	{
+		"id": "124290023",
+		"owner": "weecology",
+		"repo": "DeepForest"
+	},
+	{
+		"id": "277973609",
+		"owner": "trackmania-rl",
+		"repo": "tmrl"
+	},
+	{
+		"id": "235061629",
+		"owner": "jwzhanggy",
+		"repo": "Graph-Bert"
+	},
+	{
+		"id": "180587550",
+		"owner": "keiohta",
+		"repo": "tf2rl"
+	},
+	{
+		"id": "417322802",
+		"owner": "curieuxjy",
+		"repo": "Awesome_Quadrupedal_Robots"
+	},
+	{
+		"id": "135140095",
+		"owner": "basveeling",
+		"repo": "pcam"
+	},
+	{
+		"id": "66316247",
+		"owner": "eBay",
+		"repo": "Sequence-Semantic-Embedding"
+	},
+	{
+		"id": "296572233",
+		"owner": "VICO-UoE",
+		"repo": "DatasetCondensation"
+	},
+	{
+		"id": "251007070",
+		"owner": "uvipen",
+		"repo": "Tetris-deep-Q-learning-pytorch"
+	},
+	{
+		"id": "230030615",
+		"owner": "zhao62",
+		"repo": "Deep-Residual-Shrinkage-Networks"
+	},
+	{
+		"id": "283664242",
+		"owner": "facebookresearch",
+		"repo": "LaMCTS"
+	},
+	{
+		"id": "301518776",
+		"owner": "amazon-braket",
+		"repo": "amazon-braket-examples"
+	},
+	{
+		"id": "90730179",
+		"owner": "prateekiiest",
+		"repo": "Code-Sleep-Python"
+	},
+	{
+		"id": "79776573",
+		"owner": "PacktPublishing",
+		"repo": "Artificial-Intelligence-with-Python"
+	},
+	{
+		"id": "104973687",
+		"owner": "mila-iqia",
+		"repo": "myia"
+	},
+	{
+		"id": "45847491",
+		"owner": "conjure-up",
+		"repo": "conjure-up"
+	},
+	{
+		"id": "140302908",
+		"owner": "supervisely",
+		"repo": "supervisely"
+	},
+	{
+		"id": "399905986",
+		"owner": "salesforce",
+		"repo": "warp-drive"
+	},
+	{
+		"id": "451958645",
+		"owner": "yxuansu",
+		"repo": "SimCTG"
+	},
+	{
+		"id": "655021836",
+		"owner": "SynaLinks",
+		"repo": "HybridAGI"
+	},
+	{
+		"id": "770250365",
+		"owner": "NVlabs",
+		"repo": "edm2"
+	},
+	{
+		"id": "60766913",
+		"owner": "PacktPublishing",
+		"repo": "Python-Machine-Learning-Cookbook"
+	},
+	{
+		"id": "347129505",
+		"owner": "aleximmer",
+		"repo": "Laplace"
+	},
+	{
+		"id": "728036480",
+		"owner": "PKU-YuanGroup",
+		"repo": "Machine-Mindset"
+	},
+	{
+		"id": "276036730",
+		"owner": "pykale",
+		"repo": "pykale"
+	},
+	{
+		"id": "503454474",
+		"owner": "mit-han-lab",
+		"repo": "mcunet"
+	},
+	{
+		"id": "103804538",
+		"owner": "astorfi",
+		"repo": "Deep-Learning-NLP"
+	},
+	{
+		"id": "708737761",
+		"owner": "X-LANCE",
+		"repo": "SLAM-LLM"
+	},
+	{
+		"id": "604404340",
+		"owner": "RenzeLou",
+		"repo": "awesome-instruction-learning"
+	},
+	{
+		"id": "654516474",
+		"owner": "Orange-Cyberdefense",
+		"repo": "awesome-industrial-protocols"
+	},
+	{
+		"id": "114080451",
+		"owner": "NumesSanguis",
+		"repo": "FACSvatar"
+	},
+	{
+		"id": "35744089",
+		"owner": "Sohl-Dickstein",
+		"repo": "Diffusion-Probabilistic-Models"
+	},
+	{
+		"id": "665758053",
+		"owner": "BobMcDear",
+		"repo": "attorch"
+	},
+	{
+		"id": "176126178",
+		"owner": "CogStack",
+		"repo": "MedCAT"
+	},
+	{
+		"id": "167597323",
+		"owner": "nshaud",
+		"repo": "DeepHyperX"
+	},
+	{
+		"id": "384007696",
+		"owner": "ubicomplab",
+		"repo": "rPPG-Toolbox"
+	},
+	{
+		"id": "566277502",
+		"owner": "mit-han-lab",
+		"repo": "tiny-training"
+	},
+	{
+		"id": "222242588",
+		"owner": "DavidZhangdw",
+		"repo": "Visual-Tracking-Development"
+	},
+	{
+		"id": "58469159",
+		"owner": "faucetsdn",
+		"repo": "poseidon"
+	},
+	{
+		"id": "112225649",
+		"owner": "logangraham",
+		"repo": "arXausality"
+	},
+	{
+		"id": "86444372",
+		"owner": "baldassarreFe",
+		"repo": "deep-koalarization"
+	},
+	{
+		"id": "80221082",
+		"owner": "hunkim",
+		"repo": "DeepLearningStars"
+	},
+	{
+		"id": "256053482",
+		"owner": "Kaixhin",
+		"repo": "imitation-learning"
+	},
+	{
+		"id": "141759344",
+		"owner": "phoenix104104",
+		"repo": "fast_blind_video_consistency"
+	},
+	{
+		"id": "206366193",
+		"owner": "interpretml",
+		"repo": "interpret-text"
+	},
+	{
+		"id": "138932139",
+		"owner": "airlab-unibas",
+		"repo": "airlab"
+	},
+	{
+		"id": "211819061",
+		"owner": "TUMFTM",
+		"repo": "CameraRadarFusionNet"
+	},
+	{
+		"id": "133702954",
+		"owner": "vanvalenlab",
+		"repo": "deepcell-tf"
+	},
+	{
+		"id": "193556007",
+		"owner": "hyperledger",
+		"repo": "aries-cloudagent-python"
+	},
+	{
+		"id": "217789312",
+		"owner": "hsd1503",
+		"repo": "resnet1d"
+	},
+	{
+		"id": "405701498",
+		"owner": "jiaxi-jiang",
+		"repo": "FBCNN"
+	},
+	{
+		"id": "228486057",
+		"owner": "pygfx",
+		"repo": "wgpu-py"
+	},
+	{
+		"id": "760887878",
+		"owner": "truthofmatthew",
+		"repo": "persian-license-plate-recognition"
+	},
+	{
+		"id": "252740567",
+		"owner": "jr-robotics",
+		"repo": "robo-gym"
+	},
+	{
+		"id": "380978303",
+		"owner": "ArtLabss",
+		"repo": "tennis-tracking"
+	},
+	{
+		"id": "230536199",
+		"owner": "ZhaoZhibin",
+		"repo": "UDTL"
+	},
+	{
+		"id": "214425904",
+		"owner": "MarwanDebbiche",
+		"repo": "post-tuto-deployment"
+	},
+	{
+		"id": "474895085",
+		"owner": "DataCanvasIO",
+		"repo": "YLearn"
+	},
+	{
+		"id": "180458619",
+		"owner": "RedisGears",
+		"repo": "EdgeRealtimeVideoAnalytics"
+	},
+	{
+		"id": "558512915",
+		"owner": "salesforce",
+		"repo": "logai"
+	},
+	{
+		"id": "93170751",
+		"owner": "aleju",
+		"repo": "self-driving-truck"
+	},
+	{
+		"id": "268833409",
+		"owner": "PaulDanielML",
+		"repo": "MuJoCo_RL_UR5"
+	},
+	{
+		"id": "188738155",
+		"owner": "instillai",
+		"repo": "Generative-Adversarial-Networks-Roadmap"
+	},
+	{
+		"id": "129458870",
+		"owner": "kermitt2",
+		"repo": "delft"
+	},
+	{
+		"id": "667310297",
+		"owner": "YaoleiQi",
+		"repo": "DSCNet"
+	},
+	{
+		"id": "636065294",
+		"owner": "nasa-petal",
+		"repo": "bidara"
+	},
+	{
+		"id": "165284791",
+		"owner": "juglab",
+		"repo": "n2v"
+	},
+	{
+		"id": "268110746",
+		"owner": "cartershanklin",
+		"repo": "pyspark-cheatsheet"
+	},
+	{
+		"id": "252362426",
+		"owner": "Skylark0924",
+		"repo": "Machine-Learning-is-ALL-You-Need"
+	},
+	{
+		"id": "158492042",
+		"owner": "starkblaze01",
+		"repo": "Algorithms-Cheatsheet-Resources"
+	},
+	{
+		"id": "734082933",
+		"owner": "fpgaminer",
+		"repo": "joytag"
+	},
+	{
+		"id": "139549274",
+		"owner": "crazydonkey200",
+		"repo": "neural-symbolic-machines"
+	},
+	{
+		"id": "63731563",
+		"owner": "aturtur",
+		"repo": "cinema4d-scripts"
+	},
+	{
+		"id": "68372055",
+		"owner": "Atomu2014",
+		"repo": "product-nets"
+	},
+	{
+		"id": "717335443",
+		"owner": "zhoudaquan",
+		"repo": "ChatAnything"
+	},
+	{
+		"id": "151057527",
+		"owner": "PacktPublishing",
+		"repo": "Mastering-OpenCV-4-with-Python"
+	},
+	{
+		"id": "553272352",
+		"owner": "Seeed-Studio",
+		"repo": "ModelAssistant"
+	},
+	{
+		"id": "202435057",
+		"owner": "martinResearch",
+		"repo": "DEODR"
+	},
+	{
+		"id": "102517499",
+		"owner": "pkmital",
+		"repo": "pycadl"
+	},
+	{
+		"id": "676498788",
+		"owner": "DmitryRyumin",
+		"repo": "CVPR-2023-24-Papers"
+	},
+	{
+		"id": "139976933",
+		"owner": "PINTO0309",
+		"repo": "MobileNet-SSD-RealSense"
+	},
+	{
+		"id": "112068682",
+		"owner": "naturomics",
+		"repo": "CapsLayer"
+	},
+	{
+		"id": "476563942",
+		"owner": "alibaba",
+		"repo": "lightweight-neural-architecture-search"
+	},
+	{
+		"id": "181565879",
+		"owner": "xingyul",
+		"repo": "flownet3d"
+	},
+	{
+		"id": "106470718",
+		"owner": "nmhkahn",
+		"repo": "CARN-pytorch"
+	},
+	{
+		"id": "470785220",
+		"owner": "SummerSigh",
+		"repo": "TheVrMLEyeToolbox"
+	},
+	{
+		"id": "45596393",
+		"owner": "odlgroup",
+		"repo": "odl"
+	},
+	{
+		"id": "370256849",
+		"owner": "TechyNilesh",
+		"repo": "DeepImageSearch"
+	},
+	{
+		"id": "626498767",
+		"owner": "cambridgeltl",
+		"repo": "visual-med-alpaca"
+	},
+	{
+		"id": "719239242",
+		"owner": "chawins",
+		"repo": "llm-sp"
+	},
+	{
+		"id": "262516632",
+		"owner": "histolab",
+		"repo": "histolab"
+	},
+	{
+		"id": "167996749",
+		"owner": "AlexIoannides",
+		"repo": "kubernetes-mlops"
+	},
+	{
+		"id": "111998139",
+		"owner": "SerialLain3170",
+		"repo": "adeleine"
+	},
+	{
+		"id": "219580162",
+		"owner": "qyzdao",
+		"repo": "ShadeSketch"
+	},
+	{
+		"id": "500395165",
+		"owner": "torcheeg",
+		"repo": "torcheeg"
+	},
+	{
+		"id": "569558428",
+		"owner": "google",
+		"repo": "autobound"
+	},
+	{
+		"id": "169170694",
+		"owner": "LyleMi",
+		"repo": "papers"
+	},
+	{
+		"id": "89934189",
+		"owner": "memo",
+		"repo": "webcam-pix2pix-tensorflow"
+	},
+	{
+		"id": "218172200",
+		"owner": "pranaymanocha",
+		"repo": "PerceptualAudio"
+	},
+	{
+		"id": "645659535",
+		"owner": "changzy00",
+		"repo": "pytorch-attention"
+	},
+	{
+		"id": "762564236",
+		"owner": "miciwan",
+		"repo": "PaintMixing"
+	},
+	{
+		"id": "237910884",
+		"owner": "MulongXie",
+		"repo": "UIED"
+	},
+	{
+		"id": "54422317",
+		"owner": "mattjj",
+		"repo": "svae"
+	},
+	{
+		"id": "103012489",
+		"owner": "ankonzoid",
+		"repo": "LearningX"
+	},
+	{
+		"id": "334073193",
+		"owner": "AI4Finance-Foundation",
+		"repo": "FinRL_Podracer"
+	},
+	{
+		"id": "255570866",
+		"owner": "sony",
+		"repo": "ai-research-code"
+	},
+	{
+		"id": "154229754",
+		"owner": "palash1992",
+		"repo": "DynamicGEM"
+	},
+	{
+		"id": "595728617",
+		"owner": "the-full-stack",
+		"repo": "ask-fsdl"
+	},
+	{
+		"id": "388656262",
+		"owner": "isaaccorley",
+		"repo": "torchrs"
+	},
+	{
+		"id": "175690975",
+		"owner": "yulunzhang",
+		"repo": "RNAN"
+	},
+	{
+		"id": "373237225",
+		"owner": "BMEII-AI",
+		"repo": "RadImageNet"
+	},
+	{
+		"id": "167119230",
+		"owner": "Raschka-research-group",
+		"repo": "coral-cnn"
+	},
+	{
+		"id": "17085874",
+		"owner": "timvieira",
+		"repo": "justified-variables"
+	},
+	{
+		"id": "503178978",
+		"owner": "mmaaz60",
+		"repo": "EdgeNeXt"
+	},
+	{
+		"id": "410658471",
+		"owner": "mikeroyal",
+		"repo": "ISP-Guide"
+	},
+	{
+		"id": "653852586",
+		"owner": "ssundaram21",
+		"repo": "dreamsim"
+	},
+	{
+		"id": "299839059",
+		"owner": "neuralhydrology",
+		"repo": "neuralhydrology"
+	},
+	{
+		"id": "124678941",
+		"owner": "Hiroshiba",
+		"repo": "realtime-yukarin"
+	},
+	{
+		"id": "208021710",
+		"owner": "JirongZhang",
+		"repo": "DeepHomography"
+	},
+	{
+		"id": "332524452",
+		"owner": "anish-lakkapragada",
+		"repo": "SeaLion"
+	},
+	{
+		"id": "198203883",
+		"owner": "EFS-OpenSource",
+		"repo": "calibration-framework"
+	},
+	{
+		"id": "291283941",
+		"owner": "Dipeshpal",
+		"repo": "Jarvis_AI"
+	},
+	{
+		"id": "599531423",
+		"owner": "SinMDM",
+		"repo": "SinMDM"
+	},
+	{
+		"id": "382052875",
+		"owner": "mikekeith52",
+		"repo": "scalecast"
+	},
+	{
+		"id": "361631547",
+		"owner": "microsoft",
+		"repo": "nn-Meter"
+	},
+	{
+		"id": "655836653",
+		"owner": "pentilm",
+		"repo": "AirCtrl"
+	},
+	{
+		"id": "399194159",
+		"owner": "geezacoleman",
+		"repo": "OpenWeedLocator"
+	},
+	{
+		"id": "291783473",
+		"owner": "facebookresearch",
+		"repo": "PointContrast"
+	},
+	{
+		"id": "119879132",
+		"owner": "ARM-software",
+		"repo": "SCALE-Sim"
+	},
+	{
+		"id": "105025738",
+		"owner": "TwistedW",
+		"repo": "tensorflow-GANs"
+	},
+	{
+		"id": "341677886",
+		"owner": "Kaleidophon",
+		"repo": "deep-significance"
+	},
+	{
+		"id": "77412963",
+		"owner": "iamaaditya",
+		"repo": "image-compression-cnn"
+	},
+	{
+		"id": "329317418",
+		"owner": "loft-br",
+		"repo": "xgboost-survival-embeddings"
+	},
+	{
+		"id": "501055406",
+		"owner": "octallium",
+		"repo": "modern-python-101"
+	},
+	{
+		"id": "199644423",
+		"owner": "RITCHIEHuang",
+		"repo": "DeepRL_Algorithms"
+	},
+	{
+		"id": "571772611",
+		"owner": "Felix-Petersen",
+		"repo": "difflogic"
+	},
+	{
+		"id": "320592690",
+		"owner": "neuralmagic",
+		"repo": "sparsify"
+	},
+	{
+		"id": "467369884",
+		"owner": "wenzhu23333",
+		"repo": "Differential-Privacy-Based-Federated-Learning"
+	},
+	{
+		"id": "252220236",
+		"owner": "autonlab",
+		"repo": "auton-survival"
+	},
+	{
+		"id": "102874853",
+		"owner": "scikit-hep",
+		"repo": "uproot3"
+	},
+	{
+		"id": "130669425",
+		"owner": "lithops-cloud",
+		"repo": "lithops"
+	},
+	{
+		"id": "673278147",
+		"owner": "DmitryRyumin",
+		"repo": "ICASSP-2023-24-Papers"
+	},
+	{
+		"id": "242686959",
+		"owner": "mbrossar",
+		"repo": "denoise-imu-gyro"
+	},
+	{
+		"id": "197976875",
+		"owner": "sciann",
+		"repo": "sciann"
+	},
+	{
+		"id": "368468407",
+		"owner": "YeRen123455",
+		"repo": "Infrared-Small-Target-Detection"
+	},
+	{
+		"id": "234117993",
+		"owner": "davidtw0320",
+		"repo": "Resources-Allocation-in-The-Edge-Computing-Environment-Using-Reinforcement-Learning"
+	},
+	{
+		"id": "110871367",
+		"owner": "leipzig",
+		"repo": "awesome-reproducible-research"
+	},
+	{
+		"id": "81988822",
+		"owner": "mckinziebrandon",
+		"repo": "DeepChatModels"
+	},
+	{
+		"id": "494611862",
+		"owner": "patrickjohncyh",
+		"repo": "fashion-clip"
+	},
+	{
+		"id": "103709988",
+		"owner": "accel-brain",
+		"repo": "accel-brain-code"
+	},
+	{
+		"id": "91716856",
+		"owner": "shenyichen105",
+		"repo": "Deep-Reinforcement-Learning-in-Stock-Trading"
+	},
+	{
+		"id": "575404625",
+		"owner": "abess-team",
+		"repo": "skscope"
+	},
+	{
+		"id": "212333820",
+		"owner": "dionhaefner",
+		"repo": "pyhpc-benchmarks"
+	},
+	{
+		"id": "208760208",
+		"owner": "vislearn",
+		"repo": "ngransac"
+	},
+	{
+		"id": "653546706",
+		"owner": "va1shn9v",
+		"repo": "PromptIR"
+	},
+	{
+		"id": "274447741",
+		"owner": "MECLabTUDA",
+		"repo": "M3d-Cam"
+	},
+	{
+		"id": "413191694",
+		"owner": "mikeroyal",
+		"repo": "Neuromorphic-Computing-Guide"
+	},
+	{
+		"id": "52731535",
+		"owner": "yandexdataschool",
+		"repo": "AgentNet"
+	},
+	{
+		"id": "246486004",
+		"owner": "smousavi05",
+		"repo": "EQTransformer"
+	},
+	{
+		"id": "163561169",
+		"owner": "cyoon1729",
+		"repo": "RLcycle"
+	},
+	{
+		"id": "435921975",
+		"owner": "WenjieDu",
+		"repo": "SAITS"
+	},
+	{
+		"id": "193679288",
+		"owner": "leondz",
+		"repo": "hatespeechdata"
+	},
+	{
+		"id": "178459453",
+		"owner": "HorizonRobotics",
+		"repo": "alf"
+	},
+	{
+		"id": "539045602",
+		"owner": "madaan",
+		"repo": "minimal-text-diffusion"
+	},
+	{
+		"id": "33518425",
+		"owner": "PsychoinformaticsLab",
+		"repo": "pliers"
+	},
+	{
+		"id": "226871160",
+		"owner": "kkyon",
+		"repo": "Simple-IT-English"
+	},
+	{
+		"id": "471500104",
+		"owner": "kochlisGit",
+		"repo": "ProphitBet-Soccer-Bets-Predictor"
+	},
+	{
+		"id": "152074068",
+		"owner": "JepsonWong",
+		"repo": "Text_Matching"
+	},
+	{
+		"id": "276474742",
+		"owner": "GRAAL-Research",
+		"repo": "deepparse"
+	},
+	{
+		"id": "53914628",
+		"owner": "mike-bowles",
+		"repo": "hdDeepLearningStudy"
+	},
+	{
+		"id": "287060497",
+		"owner": "ZHKKKe",
+		"repo": "PixelSSL"
+	},
+	{
+		"id": "222209282",
+		"owner": "stefanradev93",
+		"repo": "BayesFlow"
+	},
+	{
+		"id": "321824602",
+		"owner": "neelguha",
+		"repo": "legal-ml-datasets"
+	},
+	{
+		"id": "216583232",
+		"owner": "upb-lea",
+		"repo": "gym-electric-motor"
+	},
+	{
+		"id": "379215623",
+		"owner": "microsoft",
+		"repo": "Table-Pretraining"
+	},
+	{
+		"id": "90210350",
+		"owner": "kykiefer",
+		"repo": "depression-detect"
+	},
+	{
+		"id": "221855943",
+		"owner": "bingzhewei",
+		"repo": "geom-gcn"
+	},
+	{
+		"id": "416091141",
+		"owner": "facebookresearch",
+		"repo": "recipes"
+	},
+	{
+		"id": "383025085",
+		"owner": "JizhiziLi",
+		"repo": "P3M"
+	},
+	{
+		"id": "359149825",
+		"owner": "alexfrom0815",
+		"repo": "Online-3D-BPP-DRL"
+	},
+	{
+		"id": "299520287",
+		"owner": "yikaiw",
+		"repo": "CEN"
+	},
+	{
+		"id": "395051496",
+		"owner": "Optimization-AI",
+		"repo": "LibAUC"
+	},
+	{
+		"id": "152933799",
+		"owner": "maziarraissi",
+		"repo": "HFM"
+	},
+	{
+		"id": "413423049",
+		"owner": "eth-siplab",
+		"repo": "AvatarPoser"
+	},
+	{
+		"id": "474736846",
+		"owner": "gmberton",
+		"repo": "CosPlace"
+	},
+	{
+		"id": "180969461",
+		"owner": "mesutpiskin",
+		"repo": "id-card-detector"
+	},
+	{
+		"id": "520154111",
+		"owner": "JeffffffFu",
+		"repo": "Awesome-Differential-Privacy-and-Meachine-Learning"
+	},
+	{
+		"id": "557743180",
+		"owner": "awslabs",
+		"repo": "Renate"
+	},
+	{
+		"id": "132808324",
+		"owner": "MillionIntegrals",
+		"repo": "vel"
+	},
+	{
+		"id": "201498201",
+		"owner": "RTIInternational",
+		"repo": "gobbli"
+	},
+	{
+		"id": "244249648",
+		"owner": "Verified-Intelligence",
+		"repo": "auto_LiRPA"
+	},
+	{
+		"id": "198003221",
+		"owner": "aravindsankar28",
+		"repo": "DySAT"
+	},
+	{
+		"id": "687329834",
+		"owner": "taesiri",
+		"repo": "ArXivQA"
+	},
+	{
+		"id": "779225422",
+		"owner": "Qihoo360",
+		"repo": "360zhinao"
+	},
+	{
+		"id": "683069767",
+		"owner": "modelscope",
+		"repo": "motionagent"
+	},
+	{
+		"id": "319149352",
+		"owner": "LukasZahradnik",
+		"repo": "PyNeuraLogic"
+	},
+	{
+		"id": "280574647",
+		"owner": "jrieke",
+		"repo": "awesome-machine-learning-startups-berlin"
+	},
+	{
+		"id": "70620646",
+		"owner": "Arsey",
+		"repo": "keras-transfer-learning-for-oxford102"
+	},
+	{
+		"id": "56966414",
+		"owner": "jbaiter",
+		"repo": "zotero-cli"
+	},
+	{
+		"id": "768179945",
+		"owner": "YubiaoYue",
+		"repo": "MedMamba"
+	},
+	{
+		"id": "93880900",
+		"owner": "zishansami102",
+		"repo": "CNN-from-Scratch"
+	},
+	{
+		"id": "140664464",
+		"owner": "coverdrive",
+		"repo": "MDP-DP-RL"
+	},
+	{
+		"id": "346398641",
+		"owner": "liangs111",
+		"repo": "tensor_holography"
+	},
+	{
+		"id": "216525761",
+		"owner": "semitable",
+		"repo": "robotic-warehouse"
+	},
+	{
+		"id": "156841423",
+		"owner": "cvjena",
+		"repo": "semantic-embeddings"
+	},
+	{
+		"id": "49773298",
+		"owner": "websauna",
+		"repo": "websauna"
+	},
+	{
+		"id": "274071592",
+		"owner": "DataCanvasIO",
+		"repo": "Hypernets"
+	},
+	{
+		"id": "72523487",
+		"owner": "inejc",
+		"repo": "painters"
+	},
+	{
+		"id": "104105715",
+		"owner": "kk7nc",
+		"repo": "HDLTex"
+	},
+	{
+		"id": "337969557",
+		"owner": "enlite-ai",
+		"repo": "maze"
+	},
+	{
+		"id": "226041990",
+		"owner": "aqeelanwar",
+		"repo": "PEDRA"
+	},
+	{
+		"id": "814432322",
+		"owner": "SamKhoze",
+		"repo": "ComfyUI-DeepFuze"
+	},
+	{
+		"id": "493386519",
+		"owner": "NVIDIA-AI-IOT",
+		"repo": "jetson_dla_tutorial"
+	},
+	{
+		"id": "132565186",
+		"owner": "colour-science",
+		"repo": "awesome-colour"
+	},
+	{
+		"id": "428104932",
+		"owner": "DataCanvasIO",
+		"repo": "HyperTS"
+	},
+	{
+		"id": "136805886",
+		"owner": "johnolafenwa",
+		"repo": "TorchFusion"
+	},
+	{
+		"id": "612857575",
+		"owner": "sksalahuddin2828",
+		"repo": "Python"
+	},
+	{
+		"id": "125807618",
+		"owner": "PacktPublishing",
+		"repo": "Hands-On-Data-Structures-and-Algorithms-with-Python-Second-Edition"
+	},
+	{
+		"id": "381250685",
+		"owner": "datature",
+		"repo": "portal"
+	},
+	{
+		"id": "362618600",
+		"owner": "IBM",
+		"repo": "UQ360"
+	},
+	{
+		"id": "77008142",
+		"owner": "Kyubyong",
+		"repo": "word_prediction"
+	},
+	{
+		"id": "326423100",
+		"owner": "mobadarah",
+		"repo": "tajmeeaton"
+	},
+	{
+		"id": "435803515",
+		"owner": "open-mmlab",
+		"repo": "MMGEN-FaceStylor"
+	},
+	{
+		"id": "274197828",
+		"owner": "krumiaa",
+		"repo": "MindMaker"
+	},
+	{
+		"id": "65836510",
+		"owner": "SpaceNetChallenge",
+		"repo": "utilities"
+	},
+	{
+		"id": "670705110",
+		"owner": "protectai",
+		"repo": "modelscan"
+	},
+	{
+		"id": "273761729",
+		"owner": "asmirnou",
+		"repo": "watsor"
+	},
+	{
+		"id": "194094333",
+		"owner": "Bisonai",
+		"repo": "awesome-edge-machine-learning"
+	},
+	{
+		"id": "161100612",
+		"owner": "revenol",
+		"repo": "DDLO"
+	},
+	{
+		"id": "530347014",
+		"owner": "materialsvirtuallab",
+		"repo": "matgl"
+	},
+	{
+		"id": "168174352",
+		"owner": "javier-hernandezo",
+		"repo": "FaceQnet"
+	},
+	{
+		"id": "456899023",
+		"owner": "jindongwang",
+		"repo": "tlbook-code"
+	},
+	{
+		"id": "279285516",
+		"owner": "LZBUAV",
+		"repo": "K210"
+	},
+	{
+		"id": "62860862",
+		"owner": "GeoPyTool",
+		"repo": "GeoPyTool"
+	},
+	{
+		"id": "616357923",
+		"owner": "haoyuc",
+		"repo": "MaskedDenoising"
+	},
+	{
+		"id": "345085109",
+		"owner": "ltkong218",
+		"repo": "FastFlowNet"
+	},
+	{
+		"id": "217803141",
+		"owner": "team-approx-bayes",
+		"repo": "dl-with-bayes"
+	},
+	{
+		"id": "794901954",
+		"owner": "riiswa",
+		"repo": "kanrl"
+	},
+	{
+		"id": "367420635",
+		"owner": "GoogleCloudPlatform",
+		"repo": "emblem"
+	},
+	{
+		"id": "322486855",
+		"owner": "graph4ai",
+		"repo": "graph4nlp_literature"
+	},
+	{
+		"id": "167374649",
+		"owner": "ahmedfgad",
+		"repo": "NeuralGenetic"
+	},
+	{
+		"id": "174063977",
+		"owner": "h2oai",
+		"repo": "driverlessai-recipes"
+	},
+	{
+		"id": "467552700",
+		"owner": "h9-tect",
+		"repo": "Machine-learning-roadmap-and-projects"
+	},
+	{
+		"id": "215258192",
+		"owner": "yuntaodu",
+		"repo": "Transfer-learning-materials"
+	},
+	{
+		"id": "309907547",
+		"owner": "zhijing-jin",
+		"repo": "Text_Style_Transfer_Survey"
+	},
+	{
+		"id": "239420566",
+		"owner": "galliot-us",
+		"repo": "neuralet"
+	},
+	{
+		"id": "292189702",
+		"owner": "GitYCC",
+		"repo": "crnn-pytorch"
+	},
+	{
+		"id": "239925364",
+		"owner": "qinnzou",
+		"repo": "DeepCrack"
+	},
+	{
+		"id": "80487145",
+		"owner": "david-gpu",
+		"repo": "deep-makeover"
+	},
+	{
+		"id": "163911045",
+		"owner": "lettergram",
+		"repo": "sentence-classification"
+	},
+	{
+		"id": "607384714",
+		"owner": "fabiogra",
+		"repo": "moseca"
+	},
+	{
+		"id": "145973819",
+		"owner": "lizhengwei1992",
+		"repo": "Fast_Portrait_Segmentation"
+	},
+	{
+		"id": "274012656",
+		"owner": "PaddlePaddle",
+		"repo": "InterpretDL"
+	},
+	{
+		"id": "159589936",
+		"owner": "molyswu",
+		"repo": "hand_detection"
+	},
+	{
+		"id": "83100910",
+		"owner": "chaoming0625",
+		"repo": "NumpyDL"
+	},
+	{
+		"id": "397305555",
+		"owner": "microsoft",
+		"repo": "project-azua"
+	},
+	{
+		"id": "194301252",
+		"owner": "TomG008",
+		"repo": "SkyNet"
+	},
+	{
+		"id": "222138225",
+		"owner": "aidudezzz",
+		"repo": "deepbots"
+	},
+	{
+		"id": "346478212",
+		"owner": "Karmaz95",
+		"repo": "crimson"
+	},
+	{
+		"id": "217600327",
+		"owner": "allegroai",
+		"repo": "clearml-agent"
+	},
+	{
+		"id": "532718427",
+		"owner": "SpikingChen",
+		"repo": "SNN-Daily-Arxiv"
+	},
+	{
+		"id": "308324297",
+		"owner": "leggedrobotics",
+		"repo": "delora"
+	},
+	{
+		"id": "663604762",
+		"owner": "aryn-ai",
+		"repo": "sycamore"
+	},
+	{
+		"id": "177168929",
+		"owner": "Bears-R-Us",
+		"repo": "arkouda"
+	},
+	{
+		"id": "439030255",
+		"owner": "WooilJeong",
+		"repo": "CaptchaCracker"
+	},
+	{
+		"id": "485389413",
+		"owner": "johnGettings",
+		"repo": "LIHQ"
+	},
+	{
+		"id": "626063658",
+		"owner": "voxel51",
+		"repo": "voxelgpt"
+	},
+	{
+		"id": "373906555",
+		"owner": "aws",
+		"repo": "sagemaker-huggingface-inference-toolkit"
+	},
+	{
+		"id": "94069754",
+		"owner": "vudung45",
+		"repo": "FaceRec"
+	},
+	{
+		"id": "602291196",
+		"owner": "china-testing",
+		"repo": "python_cn_resouce"
+	},
+	{
+		"id": "290538660",
+		"owner": "anl13",
+		"repo": "animal_papers"
+	},
+	{
+		"id": "17055956",
+		"owner": "stulp",
+		"repo": "dmpbbo"
+	},
+	{
+		"id": "311268879",
+		"owner": "CrayLabs",
+		"repo": "SmartSim"
+	},
+	{
+		"id": "449395509",
+		"owner": "materialsvirtuallab",
+		"repo": "m3gnet"
+	},
+	{
+		"id": "156815626",
+		"owner": "tinyzqh",
+		"repo": "awesome-reinforcement-learning"
+	},
+	{
+		"id": "114777739",
+		"owner": "KhronosGroup",
+		"repo": "NNEF-Tools"
+	},
+	{
+		"id": "293008596",
+		"owner": "ocatak",
+		"repo": "malware_api_class"
+	},
+	{
+		"id": "281223572",
+		"owner": "BaruYogesh",
+		"repo": "Spring2021Internships"
+	},
+	{
+		"id": "227850083",
+		"owner": "daniegr",
+		"repo": "EfficientPose"
+	},
+	{
+		"id": "95010107",
+		"owner": "ArrasL",
+		"repo": "LRP_for_LSTM"
+	},
+	{
+		"id": "531343118",
+		"owner": "Lei-Kun",
+		"repo": "End-to-end-DRL-for-FJSP"
+	},
+	{
+		"id": "197671887",
+		"owner": "microsoft",
+		"repo": "aerial_wildlife_detection"
+	},
+	{
+		"id": "664886106",
+		"owner": "CurryTang",
+		"repo": "Graph-LLM"
+	},
+	{
+		"id": "125457670",
+		"owner": "apollostary",
+		"repo": "donnemartin-system-design-primer"
+	},
+	{
+		"id": "594799308",
+		"owner": "csteinmetz1",
+		"repo": "dasp-pytorch"
+	},
+	{
+		"id": "436458666",
+		"owner": "yueliu1999",
+		"repo": "DCRN"
+	},
+	{
+		"id": "63874881",
+		"owner": "orenmel",
+		"repo": "context2vec"
+	},
+	{
+		"id": "138535805",
+		"owner": "yu45020",
+		"repo": "Text_Segmentation_Image_Inpainting"
+	},
+	{
+		"id": "141116665",
+		"owner": "sushengbuhuo",
+		"repo": "php-interview-2018"
+	},
+	{
+		"id": "364467705",
+		"owner": "hanmenghan",
+		"repo": "TMC"
+	},
+	{
+		"id": "79660456",
+		"owner": "PhABC",
+		"repo": "neuroSummerSchools"
+	},
+	{
+		"id": "483841773",
+		"owner": "adobe-research",
+		"repo": "MetaAF"
+	},
+	{
+		"id": "394865540",
+		"owner": "cgarciae",
+		"repo": "treex"
+	},
+	{
+		"id": "118584899",
+		"owner": "PacktPublishing",
+		"repo": "Deep-Learning-for-Computer-Vision"
+	},
+	{
+		"id": "197632932",
+		"owner": "few-shot-learning",
+		"repo": "Keras-FewShotLearning"
+	},
+	{
+		"id": "102393178",
+		"owner": "cuuupid",
+		"repo": "awesome-lists"
+	},
+	{
+		"id": "169952403",
+		"owner": "titu1994",
+		"repo": "tfdiffeq"
+	},
+	{
+		"id": "192765042",
+		"owner": "NVIDIA",
+		"repo": "object-detection-tensorrt-example"
+	},
+	{
+		"id": "385700649",
+		"owner": "hailo-ai",
+		"repo": "hailo_model_zoo"
+	},
+	{
+		"id": "325279870",
+		"owner": "99sbr",
+		"repo": "fastapi-template"
+	},
+	{
+		"id": "433331296",
+		"owner": "BUPT-GAMMA",
+		"repo": "GammaGL"
+	},
+	{
+		"id": "492430884",
+		"owner": "HuaizhengZhang",
+		"repo": "Active-Learning-as-a-Service"
+	},
+	{
+		"id": "175015102",
+		"owner": "scaleway",
+		"repo": "frontalization"
+	},
+	{
+		"id": "551334980",
+		"owner": "junshutang",
+		"repo": "3DFaceShop"
+	},
+	{
+		"id": "145316221",
+		"owner": "junjun-jiang",
+		"repo": "Face-Hallucination-Benchmark"
+	},
+	{
+		"id": "339115897",
+		"owner": "michaelsdr",
+		"repo": "momentumnet"
+	},
+	{
+		"id": "645260133",
+		"owner": "InteractiveNLP-Team",
+		"repo": "awesome-InteractiveNLP-papers"
+	},
+	{
+		"id": "138141023",
+		"owner": "spcl",
+		"repo": "ncc"
+	},
+	{
+		"id": "195252638",
+		"owner": "helmut-hoffer-von-ankershoffen",
+		"repo": "jetson"
+	},
+	{
+		"id": "237138063",
+		"owner": "sgrvinod",
+		"repo": "a-PyTorch-Tutorial-to-Transformers"
+	},
+	{
+		"id": "260499197",
+		"owner": "nasa",
+		"repo": "delta"
+	},
+	{
+		"id": "186884083",
+		"owner": "microsoft",
+		"repo": "MSMARCO-Question-Answering"
+	},
+	{
+		"id": "158708581",
+		"owner": "benedekrozemberczki",
+		"repo": "DANMF"
+	},
+	{
+		"id": "728116762",
+		"owner": "ml-stat-Sustech",
+		"repo": "TorchCP"
+	},
+	{
+		"id": "148348764",
+		"owner": "satinder147",
+		"repo": "Attendance-using-Face"
+	},
+	{
+		"id": "752980890",
+		"owner": "SoccerNet",
+		"repo": "sn-gamestate"
+	},
+	{
+		"id": "92530283",
+		"owner": "sk1712",
+		"repo": "gcn_metric_learning"
+	},
+	{
+		"id": "359584591",
+		"owner": "usnistgov",
+		"repo": "alignn"
+	},
+	{
+		"id": "616108497",
+		"owner": "google-research",
+		"repo": "jaxpruner"
+	},
+	{
+		"id": "275455374",
+		"owner": "microsoft",
+		"repo": "infinibatch"
+	},
+	{
+		"id": "100753000",
+		"owner": "nogilnick",
+		"repo": "poeai"
+	},
+	{
+		"id": "226001942",
+		"owner": "alibaba",
+		"repo": "EasyReinforcementLearning"
+	},
+	{
+		"id": "241414309",
+		"owner": "manila95",
+		"repo": "monolayout"
+	},
+	{
+		"id": "226546106",
+		"owner": "smeetrs",
+		"repo": "deep_avsr"
+	},
+	{
+		"id": "205170519",
+		"owner": "the-black-knight-01",
+		"repo": "Tabulo"
+	},
+	{
+		"id": "645376002",
+		"owner": "tangjiapeng",
+		"repo": "DiffuScene"
+	},
+	{
+		"id": "20361729",
+		"owner": "spinalcordtoolbox",
+		"repo": "spinalcordtoolbox"
+	},
+	{
+		"id": "384517595",
+		"owner": "Mayurji",
+		"repo": "Image-Classification-PyTorch"
+	},
+	{
+		"id": "246860724",
+		"owner": "Gi-z",
+		"repo": "CSIKit"
+	},
+	{
+		"id": "232252842",
+		"owner": "pecu",
+		"repo": "FinancialVision"
+	},
+	{
+		"id": "103049010",
+		"owner": "gregwchase",
+		"repo": "eyenet"
+	},
+	{
+		"id": "285716269",
+		"owner": "jonatasgrosman",
+		"repo": "findpapers"
+	},
+	{
+		"id": "210571107",
+		"owner": "bzhangGo",
+		"repo": "rmsnorm"
+	},
+	{
+		"id": "823299258",
+		"owner": "cohere-ai",
+		"repo": "DiskVectorIndex"
+	},
+	{
+		"id": "463146427",
+		"owner": "owkin",
+		"repo": "FLamby"
+	},
+	{
+		"id": "106888772",
+		"owner": "henrysky",
+		"repo": "astroNN"
+	},
+	{
+		"id": "650522461",
+		"owner": "i207M",
+		"repo": "PINNacle"
+	},
+	{
+		"id": "107878597",
+		"owner": "GKalliatakis",
+		"repo": "Keras-VGG16-places365"
+	},
+	{
+		"id": "212750895",
+		"owner": "pzhren",
+		"repo": "Awesome-NAS"
+	},
+	{
+		"id": "152757117",
+		"owner": "XuhanLiu",
+		"repo": "DrugEx"
+	},
+	{
+		"id": "70443214",
+		"owner": "YYuanAnyVision",
+		"repo": "mxnet_center_loss"
+	},
+	{
+		"id": "74622643",
+		"owner": "aws-samples",
+		"repo": "ecs-deep-learning-workshop"
+	},
+	{
+		"id": "154472226",
+		"owner": "jensleitloff",
+		"repo": "CNN-Sentinel"
+	},
+	{
+		"id": "749432469",
+		"owner": "MLOps-Courses",
+		"repo": "mlops-coding-course"
+	},
+	{
+		"id": "422220306",
+		"owner": "ziatdinovmax",
+		"repo": "gpax"
+	},
+	{
+		"id": "275260076",
+		"owner": "michiyasunaga",
+		"repo": "DrRepair"
+	},
+	{
+		"id": "186402534",
+		"owner": "PacktPublishing",
+		"repo": "ROS-Robotics-Projects-SecondEdition"
+	},
+	{
+		"id": "84509464",
+		"owner": "jhetherly",
+		"repo": "EnglishSpeechUpsampler"
+	},
+	{
+		"id": "24294717",
+		"owner": "mazefeng",
+		"repo": "ml"
+	},
+	{
+		"id": "68116943",
+		"owner": "camrongodbout",
+		"repo": "TensorFlow-in-a-Nutshell"
+	},
+	{
+		"id": "371452752",
+		"owner": "zhuwenxing",
+		"repo": "daily_arxiv"
+	},
+	{
+		"id": "292764302",
+		"owner": "pycroscopy",
+		"repo": "atomai"
+	},
+	{
+		"id": "418090129",
+		"owner": "PatrickZH",
+		"repo": "DeepCore"
+	},
+	{
+		"id": "629473758",
+		"owner": "floriankark",
+		"repo": "cs224n-win2223"
+	},
+	{
+		"id": "152713495",
+		"owner": "Hecate2",
+		"repo": "Ignareo-ISML-auto-voter"
+	},
+	{
+		"id": "244386274",
+		"owner": "terbed",
+		"repo": "Deep-rPPG"
+	},
+	{
+		"id": "392257931",
+		"owner": "JingyunLiang",
+		"repo": "HCFlow"
+	},
+	{
+		"id": "333118339",
+		"owner": "Evolutionary-Intelligence",
+		"repo": "pypop"
+	},
+	{
+		"id": "481368835",
+		"owner": "jacopotagliabue",
+		"repo": "post-modern-stack"
+	},
+	{
+		"id": "640977678",
+		"owner": "ego",
+		"repo": "awesome-mojo"
+	},
+	{
+		"id": "210607916",
+		"owner": "rediscovery-io",
+		"repo": "remo-python"
+	},
+	{
+		"id": "189067098",
+		"owner": "ANTsX",
+		"repo": "ANTsPyNet"
+	},
+	{
+		"id": "189198308",
+		"owner": "pcko1",
+		"repo": "Deep-Drug-Coder"
+	},
+	{
+		"id": "266141010",
+		"owner": "trailofbits",
+		"repo": "PrivacyRaven"
+	},
+	{
+		"id": "302409901",
+		"owner": "BarisYazici",
+		"repo": "deep-rl-grasping"
+	},
+	{
+		"id": "467372077",
+		"owner": "JinyuanLiu-CV",
+		"repo": "TarDAL"
+	},
+	{
+		"id": "65210444",
+		"owner": "samuel-code",
+		"repo": "faceTracking"
+	},
+	{
+		"id": "582116295",
+		"owner": "gorodnitskiy",
+		"repo": "yet-another-lightning-hydra-template"
+	},
+	{
+		"id": "130228042",
+		"owner": "RobRomijnders",
+		"repo": "weight_uncertainty"
+	},
+	{
+		"id": "441591889",
+		"owner": "YGZWQZD",
+		"repo": "LAMDA-SSL"
+	},
+	{
+		"id": "177214934",
+		"owner": "ChrisWaites",
+		"repo": "pyvacy"
+	},
+	{
+		"id": "383203383",
+		"owner": "rafiqhasan",
+		"repo": "auto-tensorflow"
+	},
+	{
+		"id": "202712434",
+		"owner": "PacktPublishing",
+		"repo": "Reinforcement-Learning-Algorithms-with-Python"
+	},
+	{
+		"id": "430473960",
+		"owner": "KRR-Oxford",
+		"repo": "DeepOnto"
+	},
+	{
+		"id": "411042315",
+		"owner": "yhygao",
+		"repo": "UTNet"
+	},
+	{
+		"id": "140873172",
+		"owner": "ozanciga",
+		"repo": "gans-with-pytorch"
+	},
+	{
+		"id": "559665137",
+		"owner": "XGraph-Team",
+		"repo": "Spectral-Graph-Survey"
+	},
+	{
+		"id": "400247544",
+		"owner": "goutamgmb",
+		"repo": "deep-burst-sr"
+	},
+	{
+		"id": "602149260",
+		"owner": "adaptyvbio",
+		"repo": "ProteinFlow"
+	},
+	{
+		"id": "122900465",
+		"owner": "goruck",
+		"repo": "smart-zoneminder"
+	},
+	{
+		"id": "449663716",
+		"owner": "duongcongnha",
+		"repo": "Vehicle-tracking"
+	},
+	{
+		"id": "736208747",
+		"owner": "VisionVerse",
+		"repo": "Blind-Motion-Deblurring-Survey"
+	},
+	{
+		"id": "349955945",
+		"owner": "hjwdzh",
+		"repo": "DeepLM"
+	},
+	{
+		"id": "91196413",
+		"owner": "mikeckennedy",
+		"repo": "mongodb-for-python-developers"
+	},
+	{
+		"id": "604480390",
+		"owner": "Intelligent-Driving-Laboratory",
+		"repo": "GOPS"
+	},
+	{
+		"id": "283178799",
+		"owner": "dut-media-lab",
+		"repo": "BOML"
+	},
+	{
+		"id": "744300294",
+		"owner": "935963004",
+		"repo": "LaBraM"
+	},
+	{
+		"id": "60282449",
+		"owner": "dannguyen",
+		"repo": "journalism-syllabi"
+	},
+	{
+		"id": "379979379",
+		"owner": "navassherif98",
+		"repo": "Recipe-Generation-from-Food-Image"
+	},
+	{
+		"id": "293572361",
+		"owner": "Kohulan",
+		"repo": "DECIMER-Image_Transformer"
+	},
+	{
+		"id": "561838723",
+		"owner": "beyondguo",
+		"repo": "genius"
+	},
+	{
+		"id": "257647555",
+		"owner": "qcappart",
+		"repo": "hybrid-cp-rl-solver"
+	},
+	{
+		"id": "109409681",
+		"owner": "jsikyoon",
+		"repo": "adv_attack_capsnet"
+	},
+	{
+		"id": "89320002",
+		"owner": "PacktPublishing",
+		"repo": "Deep-Learning-with-TensorFlow"
+	},
+	{
+		"id": "318884929",
+		"owner": "AdaLogics",
+		"repo": "software-security-paper-list"
+	},
+	{
+		"id": "160387955",
+		"owner": "orendv",
+		"repo": "learning_to_sample"
+	},
+	{
+		"id": "283227696",
+		"owner": "BoChenGroup",
+		"repo": "PyDPM"
+	},
+	{
+		"id": "678626849",
+		"owner": "NVIDIA-AI-IOT",
+		"repo": "cuDLA-samples"
+	},
+	{
+		"id": "421571276",
+		"owner": "yzhao062",
+		"repo": "pytod"
+	},
+	{
+		"id": "245740191",
+		"owner": "FFrankyy",
+		"repo": "FINDER"
+	},
+	{
+		"id": "97897312",
+		"owner": "aquaskyline",
+		"repo": "Clairvoyante"
+	},
+	{
+		"id": "127424867",
+		"owner": "bzantium",
+		"repo": "nlp-tensorflow"
+	},
+	{
+		"id": "130585797",
+		"owner": "llSourcell",
+		"repo": "AI_in_Medicine_Clinical_Imaging_Classification"
+	},
+	{
+		"id": "77570323",
+		"owner": "kevinjliang",
+		"repo": "tf-Faster-RCNN"
+	},
+	{
+		"id": "764711705",
+		"owner": "thuml",
+		"repo": "Large-Time-Series-Model"
+	},
+	{
+		"id": "303378056",
+		"owner": "D-X-Y",
+		"repo": "NATS-Bench"
+	},
+	{
+		"id": "688248662",
+		"owner": "wangqiannudt",
+		"repo": "nerf-arxiv-daily"
+	},
+	{
+		"id": "107112612",
+		"owner": "GSByeon",
+		"repo": "multi-speaker-tacotron-tensorflow"
+	},
+	{
+		"id": "584102226",
+		"owner": "kadirnar",
+		"repo": "torchyolo"
+	},
+	{
+		"id": "154290121",
+		"owner": "ShuhuaGao",
+		"repo": "gpFlappyBird"
+	},
+	{
+		"id": "85388920",
+		"owner": "wwj718",
+		"repo": "system-design-primer-zh_CN"
+	},
+	{
+		"id": "636368696",
+		"owner": "Autodesk",
+		"repo": "XLB"
+	},
+	{
+		"id": "115975187",
+		"owner": "hepesu",
+		"repo": "LineDistiller"
+	},
+	{
+		"id": "635842710",
+		"owner": "SonyCSLParis",
+		"repo": "pesto"
+	},
+	{
+		"id": "289750409",
+		"owner": "toshikwa",
+		"repo": "gail-airl-ppo.pytorch"
+	},
+	{
+		"id": "208411348",
+		"owner": "KangchengLiu",
+		"repo": "Crack-Detection-and-Segmentation-Dataset-for-UAV-Inspection"
+	},
+	{
+		"id": "643771590",
+		"owner": "yafuly",
+		"repo": "MAGE"
+	},
+	{
+		"id": "3987171",
+		"owner": "kaanaksit",
+		"repo": "odak"
+	},
+	{
+		"id": "465825076",
+		"owner": "crcep",
+		"repo": "cybersecurity"
+	},
+	{
+		"id": "112718760",
+		"owner": "RoblabWh",
+		"repo": "RobLearn"
+	},
+	{
+		"id": "180284680",
+		"owner": "YZHANG1270",
+		"repo": "Aspect-Based-Sentiment-Analysis"
+	},
+	{
+		"id": "248772675",
+		"owner": "musikalkemist",
+		"repo": "Deep-Learning-Audio-Application-From-Design-to-Deployment"
+	},
+	{
+		"id": "301351379",
+		"owner": "ThibautTheate",
+		"repo": "An-Application-of-Deep-Reinforcement-Learning-to-Algorithmic-Trading"
+	},
+	{
+		"id": "501078780",
+		"owner": "SineZHAN",
+		"repo": "deepALplus"
+	},
+	{
+		"id": "306213405",
+		"owner": "FederatedAI",
+		"repo": "research"
+	},
+	{
+		"id": "230472480",
+		"owner": "PySimpleGUI",
+		"repo": "PySimpleGUI-Photo-Colorizer"
+	},
+	{
+		"id": "202418694",
+		"owner": "gaiasd",
+		"repo": "DFireDataset"
+	},
+	{
+		"id": "86823908",
+		"owner": "josedolz",
+		"repo": "LiviaNET"
+	},
+	{
+		"id": "329090518",
+		"owner": "VITA-Group",
+		"repo": "TENAS"
+	},
+	{
+		"id": "576345374",
+		"owner": "NVIDIA",
+		"repo": "Deep-Learning-Accelerator-SW"
+	},
+	{
+		"id": "627370120",
+		"owner": "Ai-trainee",
+		"repo": "Traffic-Sign-Recognition-PyQt5-YOLOv5-GUI"
+	},
+	{
+		"id": "625877890",
+		"owner": "calpt",
+		"repo": "awesome-adapter-resources"
+	},
+	{
+		"id": "773647752",
+		"owner": "liutaocode",
+		"repo": "TTS-arxiv-daily"
+	},
+	{
+		"id": "520147649",
+		"owner": "Altaheri",
+		"repo": "EEG-ATCNet"
+	},
+	{
+		"id": "420896774",
+		"owner": "felipemaiapolo",
+		"repo": "legalnlp"
+	},
+	{
+		"id": "138773520",
+		"owner": "ale152",
+		"repo": "muvilab"
+	},
+	{
+		"id": "114022429",
+		"owner": "sigsep",
+		"repo": "sigsep-mus-db"
+	},
+	{
+		"id": "98341282",
+		"owner": "aws-samples",
+		"repo": "lambda-refarch-image-moderation-chatbot"
+	},
+	{
+		"id": "631174022",
+		"owner": "OpenGSL",
+		"repo": "OpenGSL"
+	},
+	{
+		"id": "176414497",
+		"owner": "ChaofWang",
+		"repo": "AWSRN"
+	},
+	{
+		"id": "434978636",
+		"owner": "paulveillard",
+		"repo": "cybersecurity"
+	},
+	{
+		"id": "6820956",
+		"owner": "mahmoud",
+		"repo": "clastic"
+	},
+	{
+		"id": "122766790",
+		"owner": "utayao",
+		"repo": "Atten_Deep_MIL"
+	},
+	{
+		"id": "578705967",
+		"owner": "FourthBrain",
+		"repo": "FastAPI-for-Machine-Learning-Live-Demo"
+	},
+	{
+		"id": "465408966",
+		"owner": "renatoviolin",
+		"repo": "bg-remove-augment"
+	},
+	{
+		"id": "270215641",
+		"owner": "TimoStoff",
+		"repo": "event_utils"
+	},
+	{
+		"id": "257248193",
+		"owner": "ertis-research",
+		"repo": "kafka-ml"
+	},
+	{
+		"id": "69646676",
+		"owner": "anantzoid",
+		"repo": "VQA-Keras-Visual-Question-Answering"
+	},
+	{
+		"id": "169649534",
+		"owner": "pkorus",
+		"repo": "neural-imaging"
+	},
+	{
+		"id": "358113748",
+		"owner": "nadeemlab",
+		"repo": "DeepLIIF"
+	},
+	{
+		"id": "152370116",
+		"owner": "Zhenye-Na",
+		"repo": "image-similarity-using-deep-ranking"
+	},
+	{
+		"id": "215127881",
+		"owner": "microsoft",
+		"repo": "MT-DNN"
+	},
+	{
+		"id": "94588639",
+		"owner": "neuronets",
+		"repo": "nobrainer"
+	},
+	{
+		"id": "526274994",
+		"owner": "AIRI-Institute",
+		"repo": "nablaDFT"
+	},
+	{
+		"id": "204591668",
+		"owner": "TF2-Engine",
+		"repo": "TF2"
+	},
+	{
+		"id": "245058427",
+		"owner": "leijue222",
+		"repo": "portrait-matting-unet-flask"
+	},
+	{
+		"id": "165292138",
+		"owner": "apache",
+		"repo": "incubator-datalab"
+	},
+	{
+		"id": "780202616",
+		"owner": "TimSong412",
+		"repo": "2D-surfel-gaussian"
+	},
+	{
+		"id": "433356166",
+		"owner": "foivospar",
+		"repo": "NED"
+	},
+	{
+		"id": "342691278",
+		"owner": "mlcommons",
+		"repo": "GaNDLF"
+	},
+	{
+		"id": "561364034",
+		"owner": "IBM",
+		"repo": "simulai"
+	},
+	{
+		"id": "319386916",
+		"owner": "zhuyitan",
+		"repo": "IGTD"
+	},
+	{
+		"id": "322303945",
+		"owner": "fartuk",
+		"repo": "ml_investment"
+	},
+	{
+		"id": "688046236",
+		"owner": "zjunlp",
+		"repo": "KnowAgent"
+	},
+	{
+		"id": "234321181",
+		"owner": "deepsphere",
+		"repo": "deepsphere-pytorch"
+	},
+	{
+		"id": "710529776",
+		"owner": "aws-samples",
+		"repo": "amazon-bedrock-serverless-prompt-chaining"
+	},
+	{
+		"id": "186884699",
+		"owner": "microsoft",
+		"repo": "OpenKP"
+	},
+	{
+		"id": "255534210",
+		"owner": "DeepTrackAI",
+		"repo": "DeepTrack2"
+	},
+	{
+		"id": "392245702",
+		"owner": "alibaba",
+		"repo": "Curvature-Learning-Framework"
+	},
+	{
+		"id": "202623912",
+		"owner": "huawei-noah",
+		"repo": "BGCN"
+	},
+	{
+		"id": "197182459",
+		"owner": "PacktPublishing",
+		"repo": "hands-on-music-generation-with-magenta"
+	},
+	{
+		"id": "528319267",
+		"owner": "Crunch-UQ4MI",
+		"repo": "neuraluq"
+	},
+	{
+		"id": "263089652",
+		"owner": "flyywh",
+		"repo": "CVPR-2020-Semi-Low-Light"
+	},
+	{
+		"id": "285529340",
+		"owner": "kaapana",
+		"repo": "kaapana"
+	},
+	{
+		"id": "308883586",
+		"owner": "FootballAnalysis",
+		"repo": "footballanalysis"
+	},
+	{
+		"id": "97382757",
+		"owner": "auDeep",
+		"repo": "auDeep"
+	},
+	{
+		"id": "153808437",
+		"owner": "hubertjb",
+		"repo": "dl-eeg-review"
+	},
+	{
+		"id": "260176747",
+		"owner": "bennylp",
+		"repo": "RL-Taxonomy"
+	},
+	{
+		"id": "258586807",
+		"owner": "JingyunLiang",
+		"repo": "FKP"
+	},
+	{
+		"id": "767923232",
+		"owner": "nicobrenner",
+		"repo": "commandjobs"
+	},
+	{
+		"id": "677947508",
+		"owner": "SUFE-AIFLM-Lab",
+		"repo": "FinEval"
+	},
+	{
+		"id": "218515132",
+		"owner": "xingyul",
+		"repo": "meteornet"
+	},
+	{
+		"id": "297911754",
+		"owner": "arrival-ltd",
+		"repo": "catalyst-rl-tutorial"
+	},
+	{
+		"id": "217319845",
+		"owner": "doonny",
+		"repo": "basic_knowledge"
+	},
+	{
+		"id": "106576650",
+		"owner": "baiwenjia",
+		"repo": "ukbb_cardiac"
+	},
+	{
+		"id": "428311592",
+		"owner": "thomashirtz",
+		"repo": "notion-scholar"
+	},
+	{
+		"id": "425414195",
+		"owner": "FreshAirTonight",
+		"repo": "af2complex"
+	},
+	{
+		"id": "727325998",
+		"owner": "SebastianoMeneghin",
+		"repo": "sml-project-2023-manfredi-meneghin"
+	},
+	{
+		"id": "111208709",
+		"owner": "faroit",
+		"repo": "CountNet"
+	},
+	{
+		"id": "261775393",
+		"owner": "yas-sim",
+		"repo": "object-tracking-line-crossing-area-intrusion"
+	},
+	{
+		"id": "380702476",
+		"owner": "statusrank",
+		"repo": "XCurve"
+	},
+	{
+		"id": "188953977",
+		"owner": "royerlab",
+		"repo": "aydin"
+	},
+	{
+		"id": "404703677",
+		"owner": "fredzzhang",
+		"repo": "upt"
+	},
+	{
+		"id": "476148841",
+		"owner": "Mountchicken",
+		"repo": "Efficient-Deep-Learning"
+	},
+	{
+		"id": "68630079",
+		"owner": "cangermueller",
+		"repo": "deepcpg"
+	},
+	{
+		"id": "77628396",
+		"owner": "eubr-bigsea",
+		"repo": "py-st-dbscan"
+	},
+	{
+		"id": "715777649",
+		"owner": "radekd91",
+		"repo": "inferno"
+	},
+	{
+		"id": "561198667",
+		"owner": "Xiaohan-Chen",
+		"repo": "transfer-learning-fault-diagnosis-pytorch"
+	},
+	{
+		"id": "380949499",
+		"owner": "amirhosseinh77",
+		"repo": "JetsonYolo"
+	},
+	{
+		"id": "356979675",
+		"owner": "mikeroyal",
+		"repo": "OpenShift-Guide"
+	},
+	{
+		"id": "121372654",
+		"owner": "jackyko1991",
+		"repo": "vnet-tensorflow"
+	},
+	{
+		"id": "523138944",
+		"owner": "aneasystone",
+		"repo": "github-trending"
+	},
+	{
+		"id": "136517946",
+		"owner": "titipata",
+		"repo": "detecting-scientific-claim"
+	},
+	{
+		"id": "254032994",
+		"owner": "zilliztech",
+		"repo": "phantoscope"
+	},
+	{
+		"id": "512140249",
+		"owner": "daveshap",
+		"repo": "HeuristicImperatives"
+	},
+	{
+		"id": "265277386",
+		"owner": "galliot-us",
+		"repo": "smart-social-distancing"
+	},
+	{
+		"id": "179319605",
+		"owner": "d2l-ai",
+		"repo": "d2l-ko"
+	},
+	{
+		"id": "152731912",
+		"owner": "PacktPublishing",
+		"repo": "Python-Reinforcement-Learning-Projects"
+	},
+	{
+		"id": "220392616",
+		"owner": "intra3d2019",
+		"repo": "IntrA"
+	},
+	{
+		"id": "730745985",
+		"owner": "WenjieDu",
+		"repo": "Awesome_Imputation"
+	},
+	{
+		"id": "212592577",
+		"owner": "JohannesBuchner",
+		"repo": "UltraNest"
+	},
+	{
+		"id": "96272398",
+		"owner": "tingsu",
+		"repo": "Stoat"
+	},
+	{
+		"id": "494157870",
+		"owner": "MetaSLAM",
+		"repo": "GPRS_Survey"
+	},
+	{
+		"id": "175957546",
+		"owner": "songhengyang",
+		"repo": "face_landmark_factory"
+	},
+	{
+		"id": "120989515",
+		"owner": "rk2900",
+		"repo": "DRSA"
+	},
+	{
+		"id": "135966303",
+		"owner": "juefeix",
+		"repo": "pnn.pytorch"
+	},
+	{
+		"id": "161771201",
+		"owner": "google-deepmind",
+		"repo": "lamb"
+	},
+	{
+		"id": "735740004",
+		"owner": "EricLBuehler",
+		"repo": "xlora"
+	},
+	{
+		"id": "431976679",
+		"owner": "antocad",
+		"repo": "FocusOnDepth"
+	},
+	{
+		"id": "313682042",
+		"owner": "techge",
+		"repo": "PRE-list"
+	},
+	{
+		"id": "200137728",
+		"owner": "nickbild",
+		"repo": "shaides"
+	},
+	{
+		"id": "743533748",
+		"owner": "slavakurilyak",
+		"repo": "awesome-ai-agents"
+	},
+	{
+		"id": "804600851",
+		"owner": "mbodiai",
+		"repo": "embodied-agents"
+	},
+	{
+		"id": "326245899",
+		"owner": "ignc-research",
+		"repo": "arena-rosnav"
+	},
+	{
+		"id": "83500892",
+		"owner": "ColinShaw",
+		"repo": "robotics-and-machine-vision-resources"
+	},
+	{
+		"id": "147645653",
+		"owner": "Alexander-H-Liu",
+		"repo": "UFDN"
+	},
+	{
+		"id": "272348074",
+		"owner": "liugang1234567",
+		"repo": "Gang-neuron"
+	},
+	{
+		"id": "165292565",
+		"owner": "faroit",
+		"repo": "python_audio_loading_benchmark"
+	},
+	{
+		"id": "365608171",
+		"owner": "alexpapados",
+		"repo": "Physics-Informed-Deep-Learning-Solid-and-Fluid-Mechanics"
+	},
+	{
+		"id": "125457130",
+		"owner": "zhuofupan",
+		"repo": "Tensorflow-Deep-Neural-Networks"
+	},
+	{
+		"id": "183363753",
+		"owner": "ivannz",
+		"repo": "cplxmodule"
+	},
+	{
+		"id": "181730902",
+		"owner": "vinojjayasundara",
+		"repo": "textcaps"
+	},
+	{
+		"id": "298564418",
+		"owner": "xitorch",
+		"repo": "xitorch"
+	},
+	{
+		"id": "390730203",
+		"owner": "Merck",
+		"repo": "BioPhi"
+	},
+	{
+		"id": "357008593",
+		"owner": "allegroai",
+		"repo": "clearml-serving"
+	},
+	{
+		"id": "138149178",
+		"owner": "cwerner",
+		"repo": "fastclass"
+	},
+	{
+		"id": "696068744",
+		"owner": "DUTIR-BioNLP",
+		"repo": "Taiyi-LLM"
+	},
+	{
+		"id": "90304747",
+		"owner": "Haoran-S",
+		"repo": "TSP-DNN"
+	}
+]
