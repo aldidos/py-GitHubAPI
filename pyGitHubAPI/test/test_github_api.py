@@ -47,7 +47,22 @@ class TestGitAPI(unittest.TestCase) :
         self.assertEqual(res.status_code, 200)
         print(res.text)
 
+    def test_get_list_repository_issues(self) : 
+        owner = 'vinta'
+        repo = 'awesome-python'
+
+        res = ghAPI.get_list_repository_issues(owner, repo)
+        self.assertEqual(res.status_code, 200)
+        print(res.text)
+
+    def test_get_list_pull_requests(self) : 
+        owner = 'vinta'
+        repo = 'awesome-python'
+
+        res = ghAPI.get_list_pull_requests(owner, repo)
+        self.assertEqual(res.status_code, 200)
+        print(res.text)
+
 if __name__ == '__main__' : 
     unittest.main()
-    # test_get_search_repositories()
-
+    

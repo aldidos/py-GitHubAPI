@@ -32,6 +32,26 @@ class GitHubAPI :
         uri = f'{self.base_url}/repos/{owner}/{repo}/contents/{path}'        
         res = requests.get(uri, headers = headers)
         return res 
+    
+    def get_list_repository_issues(self, owner, repo, state = 'all', sort = 'created', per_page = 100) : 
+        uri = f'{self.base_url}/repos/{owner}/{repo}/issues'
+        params = {
+            'state' : state, 
+            'sort' : sort, 
+            'per_page' : per_page
+        }
+        res = requests.get(uri, params = params, headers = headers)
+        return res
+    
+    def get_list_pull_requests(self, owner, repo, state = 'all', sort = 'created', per_page = 100) : 
+        uri = f'{self.base_url}/repos/{owner}/{repo}/pulls'
+        params = {
+            'state' : state, 
+            'sort' : sort,
+            'per_page' : per_page
+        }
+        res = requests.get(uri, params = params, headers = headers)
+        return res
 
     def get_req(self, uri) : 
         res = requests.get(uri, headers = self.headers ) 
