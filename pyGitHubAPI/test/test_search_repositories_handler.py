@@ -6,8 +6,8 @@ def test_get_repositories() :
     q = 'deep learning in:readme'
 
     srh = SearchRepositoriesHandler(q)
-    res = srh.get_repositories()
+    result = srh.get_repositories()
 
-    print( srh.results )
+    print( result )
 
 test_get_repositories()

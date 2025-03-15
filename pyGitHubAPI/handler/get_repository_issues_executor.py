@@ -1,5 +1,5 @@
 from pyGitHubAPI.github_api import ghAPI
-from pyGitHubAPI.pagenator import pagenator
+from pyGitHubAPI.pagenator import Pagenator
 from requests import Response
 import json
 
@@ -18,16 +18,11 @@ class GetRepositoryIssuesExecutor :
         if res.status_code == 200 : 
             result = json.loads( res.text )
             self.result.extend( result )
-        
-        return res 
-    
-    def get_next_items(self, res : Response) : 
-        next_url = pagenator.get_next_page_url(res)
-        if next_url : 
-            res = ghAPI.get_req(next_url)
 
-            if res.status_code == 200 : 
-                result = json.loads( res.text )
+            pagenator = Pagenator(res)
+            for next_res in pagenator : 
+                result = json.loads( next_res.text )
                 self.result.extend( result )
-
-            return res 
+        
+        return self.result
+    
