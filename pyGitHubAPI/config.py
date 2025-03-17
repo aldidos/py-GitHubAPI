@@ -1,11 +1,7 @@
-import json
+from dotenv import dotenv_values
 
-def read_token() : 
-    with open('./config/token.json', mode = 'r', encoding='utf-8') as f : 
-        config = json.load(f)
-        return config['token']
-
-token = read_token()
+config = dotenv_values('.env')
+token = config['GITHUB_TOKEN']
 
 headers = {
     'Accept' : 'application/vnd.github+json', 
