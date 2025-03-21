@@ -52,6 +52,11 @@ class GitHubAPI :
         }
         res = requests.get(uri, params = params, headers = headers)
         return res
+    
+    def get_repository(self, owner, repo) : 
+        uri = f'{self.base_url}/repos/{owner}/{repo}'
+        res = requests.get(uri, headers = headers)
+        return res
 
     def get_req(self, uri) : 
         res = requests.get(uri, headers = self.headers ) 

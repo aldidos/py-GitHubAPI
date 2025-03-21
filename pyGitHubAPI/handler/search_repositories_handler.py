@@ -2,6 +2,7 @@ from pyGitHubAPI.github_api import ghAPI
 from pyGitHubAPI.pagenator import Pagenator
 from requests import Response
 import json
+import time
 
 class SearchRepositoriesHandler : 
 
@@ -23,5 +24,6 @@ class SearchRepositoriesHandler :
             for next_res in pagenator : 
                 result = json.loads( next_res.text )
                 self.results.extend( result['items'] )
+                time.sleep(10) 
             
         return self.results    

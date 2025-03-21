@@ -13,6 +13,7 @@ class Pagenator :
         next = self.cur_res.links.get('next')
         if next : 
             url = next['url']
+            print(f'GET {url}')
             self.cur_res = ghAPI.get_req(url)
             return self.cur_res
         else :
