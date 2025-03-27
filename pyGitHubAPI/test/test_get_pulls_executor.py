@@ -1,15 +1,15 @@
 import sys
 sys.path.append('.')
 from pyGitHubAPI.handler.get_pulls_executor import GetPullsExecutor
+from datetime import date
 
 def test_execute() : 
     owner = 'sindresorhus'
     repo = 'awesome'
 
     executor = GetPullsExecutor(owner, repo, state='closed')
-    result = executor.execute()
+    res = executor.execute() 
 
-    print( len(result) )
-    print(result)
-
+    print(res.text)
+    
 test_execute()

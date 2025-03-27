@@ -1,5 +1,4 @@
 from pyGitHubAPI.github_api import ghAPI
-from requests import Response
 
 class Pagenator : 
 
