@@ -1,12 +1,12 @@
 import sys
 sys.path.append('.')
-from pyGitHubAPI.handler.search_repositories_handler import SearchRepositoriesHandler
+from pyGitHubAPI.executor.search_repositories_executor import SearchRepositoriesExecutor
 import json
 
 def test_get_repositories() : 
     q = 'open-source in:readme'
 
-    srh = SearchRepositoriesHandler(q)
+    srh = SearchRepositoriesExecutor(q)
     result = srh.get_repositories()
 
     print( result )

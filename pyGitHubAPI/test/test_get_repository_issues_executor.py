@@ -1,6 +1,6 @@
 import sys
 sys.path.append('.')
-from pyGitHubAPI.handler.get_repository_issues_executor import GetRepositoryIssuesExecutor
+from pyGitHubAPI.executor.get_repository_issues_executor import GetRepositoryIssuesExecutor
 
 def test_execute() : 
     owner = 'sindresorhus'

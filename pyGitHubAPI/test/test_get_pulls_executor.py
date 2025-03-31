@@ -1,6 +1,6 @@
 import sys
 sys.path.append('.')
-from pyGitHubAPI.handler.get_pulls_executor import GetPullsExecutor
+from pyGitHubAPI.executor.get_pulls_executor import GetPullsExecutor
 from datetime import date
 
 def test_execute() : 

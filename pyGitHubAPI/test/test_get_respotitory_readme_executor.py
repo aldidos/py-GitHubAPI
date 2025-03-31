@@ -1,13 +1,13 @@
 import sys
 sys.path.append('.')
-from pyGitHubAPI.handler.get_repository_readme_handler import getRepoREADMEHander
+from pyGitHubAPI.executor.get_repository_readme_executor import getRepoREADMEExecutor
 import json
 
 def test_download_raw_readme() : 
     owner = 'sindresorhus'
     repo = 'awesome'
 
-    readme_text = getRepoREADMEHander.download_raw_readme(owner, repo)
+    readme_text = getRepoREADMEExecutor.download_raw_readme(owner, repo)
     print(readme_text)
 
 def test_download_raw_readme_from_repository() : 
@@ -16,7 +16,7 @@ def test_download_raw_readme_from_repository() :
         list_repos = json.load(f)
         repository_data = list_repos[0]
 
-        readme_text = getRepoREADMEHander.download_raw_readme_from_repository( repository_data )
+        readme_text = getRepoREADMEExecutor.download_raw_readme_from_repository( repository_data )
         print(readme_text)
 
 test_download_raw_readme()

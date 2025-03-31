@@ -4,7 +4,7 @@ from requests import Response
 import json
 import time
 
-class SearchRepositoriesHandler : 
+class SearchRepositoriesExecutor : 
 
     def __init__(self, q, sort = 'starts', order = 'desc', per_page = 100) : 
         self.q = q

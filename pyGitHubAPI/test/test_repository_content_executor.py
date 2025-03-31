@@ -1,13 +1,13 @@
 import sys
 sys.path.append('.')
-from pyGitHubAPI.handler.repository_content_handler import RepositoryContentHandler
+from pyGitHubAPI.executor.repository_content_executor import RepositoryContentExecutor
 
 def test_download_repository_content() : 
     owner = 'rethinkdb'
     repo = 'rethinkdb'
     path = '.github/PULL_REQUEST_TEMPLATE'    
 
-    repositoryCenterHandler = RepositoryContentHandler()
+    repositoryCenterHandler = RepositoryContentExecutor()
 
     content = repositoryCenterHandler.download_repository_content(owner, repo, path)
     print(content)

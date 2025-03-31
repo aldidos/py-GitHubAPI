@@ -1,7 +1,7 @@
 from pyGitHubAPI.github_api import ghAPI
 import json
 
-class GetRepoREADMEHandler : 
+class GetRepoREADMEExecutor : 
 
     def download_raw_readme(self, owner, repo) : 
         res = ghAPI.get_repository_README(owner, repo)
@@ -20,4 +20,4 @@ class GetRepoREADMEHandler :
 
         return self.download_raw_readme(owner, repo)
         
-getRepoREADMEHander = GetRepoREADMEHandler()
+getRepoREADMEExecutor = GetRepoREADMEExecutor()

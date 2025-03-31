@@ -14,6 +14,10 @@ class Pagenator :
             url = next['url']
             print(f'GET {url}')
             self.cur_res = ghAPI.get_req(url)
+            if self.cur_res.status_code != 200 : 
+                print(self.cur_res.status_code)
+                print(self.cur_res.text)
             return self.cur_res
+            
         else :
             raise StopIteration
