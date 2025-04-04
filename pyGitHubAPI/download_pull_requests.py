@@ -31,12 +31,12 @@ def download_pull_requests(owner, repo, state = 'closed', *, output_path) :
         for next_res in pagenator : 
             result = json.loads( next_res.text )
 
-            output_file_path = f'{output_path}/{num}.json'
+            output_file_path = f'{output_path}/{num}.json'            
             with open(output_file_path, mode = 'w', encoding = 'utf-8') as wf : 
                 json.dump(result, wf)
             num += 1
 
-            time.sleep(3) 
+            time.sleep(1) 
             waiting(res)
 
 def batch_download(input_file_path, output_base_path) : 
