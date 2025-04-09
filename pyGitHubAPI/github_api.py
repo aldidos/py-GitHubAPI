@@ -57,6 +57,11 @@ class GitHubAPI :
         uri = f'{self.base_url}/repos/{owner}/{repo}'
         res = requests.get(uri, headers = headers)
         return res
+    
+    def get_issue_events(self, owner, repo, number) : 
+        url = f'{self.base_url}/repos/{owner}/{repo}/issues/{number}/events'
+        res = requests.get(url, headers = headers)
+        return res
 
     def get_req(self, uri) : 
         res = requests.get(uri, headers = self.headers ) 

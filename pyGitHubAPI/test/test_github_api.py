@@ -71,6 +71,15 @@ class TestGitAPI(unittest.TestCase) :
         self.assertEqual(res.status_code, 200)
         print(res.text)
 
+    def test_get_issue_event(self) : 
+        owner = 'Redocly'
+        repo = 'redoc'
+        number = 2002
+
+        res = ghAPI.get_issue_events(owner, repo, number)
+        self.assertEqual(res.status_code, 200)
+        print(res.text)
+
 if __name__ == '__main__' : 
     unittest.main()
     
