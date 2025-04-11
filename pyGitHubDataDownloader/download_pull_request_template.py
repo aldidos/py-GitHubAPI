@@ -1,6 +1,6 @@
 import sys
 sys.path.append('.')
-from pyGitHubAPI.executor.repository_content_executor import RepositoryContentExecutor
+from pyGitHubDataDownloader.executor.repository_content_executor import RepositoryContentExecutor
 from pathlib import Path
 import csv
 
