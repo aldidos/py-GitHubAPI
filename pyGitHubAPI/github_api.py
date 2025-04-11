@@ -62,6 +62,21 @@ class GitHubAPI :
         url = f'{self.base_url}/repos/{owner}/{repo}/issues/{number}/events'
         res = requests.get(url, headers = headers)
         return res
+    
+    def get_issue_comments(self, owner, repo, number) : 
+        url = f'{self.base_url}/repos/{owner}/{repo}/issues/{number}/comments'
+        res = requests.get(url, headers = headers)
+        return res
+    
+    def get_pull_request_reviews(self, owner, repo, number) : 
+        url = f'{self.base_url}/repos/{owner}/{repo}/pulls/{number}/reviews'
+        res = requests.get(url, headers = headers)
+        return res
+    
+    def get_pull_request_review_comments(self, owner, repo, number) : 
+        url = f'{self.base_url}/repos/{owner}/{repo}/pulls/{number}/comments'
+        res = requests.get(url, headers = headers)
+        return res
 
     def get_req(self, uri) : 
         res = requests.get(uri, headers = self.headers ) 
