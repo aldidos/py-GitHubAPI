@@ -2,21 +2,24 @@ from pyGitHubAPI.github_api import ghAPI
 
 class Pagenator : 
 
-    def __init__(self, res) : 
-        self.cur_res = res
+    def __init__(self, url, params = None) : 
+        self.url = url
+        self.cur_res = None
+        self.params = params        
 
-    def __iter__(self) :         
+    def __iter__(self) :
         return self
     
     def __next__(self) : 
+        if not self.cur_res : 
+            self.cur_res = ghAPI.get_req(self.url, self.params)
+            return self.cur_res
+
         next = self.cur_res.links.get('next')
         if next : 
             url = next['url']
             print(f'GET {url}')
-            self.cur_res = ghAPI.get_req(url)
-            if self.cur_res.status_code != 200 : 
-                print(self.cur_res.status_code)
-                print(self.cur_res.text)
+            self.cur_res = ghAPI.get_req(url)            
             return self.cur_res
             
         else :

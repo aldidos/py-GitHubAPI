@@ -77,9 +77,18 @@ class GitHubAPI :
         url = f'{self.base_url}/repos/{owner}/{repo}/pulls/{number}/comments'
         res = requests.get(url, headers = headers)
         return res
+    
+    def get_list_review_comments(self, owner, repo, *, per_page = 100, page = 1) : 
+        url = f'{self.base_url}/repos/{owner}/{repo}/pulls/comments'
+        qParams = {
+            'per_page' : per_page, 
+            'page' : page
+        }
+        res = requests.get(url, params = qParams, headers = headers)
+        return res
 
-    def get_req(self, uri) : 
-        res = requests.get(uri, headers = self.headers ) 
+    def get_req(self, uri, params = None) : 
+        res = requests.get(uri, params = params, headers = self.headers ) 
         return res
 
     def get_octocat(self) : 
