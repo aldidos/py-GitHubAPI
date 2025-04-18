@@ -17,10 +17,9 @@ def download(id, page, pagenator) :
             raise Exception 
 
 def main() : 
-    error_repo_log_file_path = './logs/download_review_comment_repo_log.txt'
-    error_repo_logs = RepositoryLog(error_repo_log_file_path)
+    input_file_path = sys.argv[1]
     
-    with open('./args/download_review_comments/list_repos.csv') as f : 
+    with open(input_file_path) as f : 
         reader = csv.DictReader(f)
         for row in reader : 
             id = row['id']
@@ -38,13 +37,10 @@ def main() :
             pagenator = Pagenator(url, params)
             try : 
                 download(id, page, pagenator)
-            except : 
-                error_repo_logs.put(id)
+            except :                 
                 Path(f'./error_logs/{id}').mkdir(exist_ok = True)
 
             print(f'{id}')
-
-    error_repo_logs.write_to_file(error_repo_log_file_path)
 
 if __name__ == '__main__' : 
     main()
