@@ -1,6 +1,6 @@
 import sys
 sys.path.append('.')
-from pyGitHubAPI.executor.repository_content_executor import RepositoryContentExecutor
+from pyGitHubDataDownloader.executor.repository_content_executor import RepositoryContentExecutor
 
 def test_download_repository_content() : 
     owner = 'rethinkdb'

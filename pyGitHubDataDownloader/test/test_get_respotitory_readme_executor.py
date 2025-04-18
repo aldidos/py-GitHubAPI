@@ -1,6 +1,6 @@
 import sys
 sys.path.append('.')
-from pyGitHubAPI.executor.get_repository_readme_executor import getRepoREADMEExecutor
+from pyGitHubDataDownloader.executor.get_repository_readme_executor import getRepoREADMEExecutor
 import json
 
 def test_download_raw_readme() : 

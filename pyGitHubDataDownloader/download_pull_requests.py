@@ -1,10 +1,9 @@
 import sys
 sys.path.append('.')
-from pyGitHubDataDownloader.executor.get_pulls_executor import GetPullsExecutor
+from pyGitHubAPI.config import base_url
 from pyGitHubAPI.pagenator import Pagenator
 from requests import Response
 from pathlib import Path
-import json
 import csv
 import time
 
@@ -15,29 +14,23 @@ def waiting(res : Response) :
         time.sleep(30 * 60)
 
 def download_pull_requests(owner, repo, state = 'closed', *, output_path) : 
-    get_pull_executor = GetPullsExecutor(owner, repo, state)
-    res = get_pull_executor.execute()
-    waiting(res)
+    url = uri = f'{base_url}/repos/{owner}/{repo}/pulls'
+    page = 1
+    params = {
+        'state' : state, 
+        'per_page' : 100, 
+        'page' : page
+    }
+    pagenator = Pagenator(url, params)
 
-    if res : 
-        result = json.loads( res.text )
-        num = 1
-        output_file_path = f'{output_path}/{num}.json'
-        with open(output_file_path, mode = 'w', encoding = 'utf-8') as wf : 
-            json.dump(result, wf)
-        
-        num += 1
-        pagenator = Pagenator(res)
-        for next_res in pagenator : 
-            result = json.loads( next_res.text )
-
-            output_file_path = f'{output_path}/{num}.json'            
+    for res in pagenator : 
+        if res.status_code == 200 : 
+            output_file_path = f'{output_path}/{page}.json'
             with open(output_file_path, mode = 'w', encoding = 'utf-8') as wf : 
-                json.dump(result, wf)
-            num += 1
-
-            time.sleep(1) 
-            waiting(res)
+                wf.write(res.text)
+            page += 1
+        else : 
+            break
 
 def batch_download(input_file_path, output_base_path) : 
     with open(input_file_path, mode = 'r', encoding = 'utf-8') as f : 

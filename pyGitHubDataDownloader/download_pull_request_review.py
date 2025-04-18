@@ -29,7 +29,7 @@ def download(file_path, output_dir) :
                 pass 
 
 if __name__ == '__main__' : 
-    base_dir = 'd:/PULL_REQUEST'
+    base_dir = 'e:/research_pullreq_template/PULL_REQUEST'
     base_dir_path = Path(base_dir)
 
     output_base_dir = './repo_content/PULL_REQUEST_REVIEW'

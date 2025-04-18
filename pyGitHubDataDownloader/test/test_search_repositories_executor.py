@@ -1,6 +1,6 @@
 import sys
 sys.path.append('.')
-from pyGitHubAPI.executor.search_repositories_executor import SearchRepositoriesExecutor
+from pyGitHubDataDownloader.executor.search_repositories_executor import SearchRepositoriesExecutor
 import json
 
 def test_get_repositories() : 
