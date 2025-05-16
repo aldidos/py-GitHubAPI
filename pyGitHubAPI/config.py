@@ -10,3 +10,6 @@ headers = {
 }
 
 base_url = f'https://api.github.com/'
+
+def make_ghurl(uri) : 
+    return f'{base_url}{uri}'
