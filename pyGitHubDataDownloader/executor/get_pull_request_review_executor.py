@@ -5,23 +5,17 @@ import json
 class GetPRReviewExecutor : 
 
     def execute(self, owner, repo, pr_number) : 
-        res = ghAPI.get_pull_request_reviews(owner, repo, pr_number)
-        print(f'GET pull request reviews, response status = {res.status_code}')
+        pagenator = ghAPI.get_pull_request_reviews(owner, repo, pr_number)
 
         result = []
-
-        if res.status_code == 200 : 
-            data = json.loads(res.text)
-            result.extend(data)
-
-            pagenator = Pagenator(res)
-
-            for res in pagenator : 
-                print(f'paging request response status = {res.status_code}')
-                if not res : 
-                    data = json.loads(res.text)
-                    result.extend(data) 
-
+        for res in pagenator : 
+            if res.status_code == 200 : 
+                data = json.loads(res.text)
+                result.extend(data)
+            else : 
+                print(res.status_code)
+                raise Exception
+            
         return result
     
 getPRReviewExecutor = GetPRReviewExecutor()

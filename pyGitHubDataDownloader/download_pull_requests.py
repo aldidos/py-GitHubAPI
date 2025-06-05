@@ -1,7 +1,6 @@
 import sys
 sys.path.append('.')
-from pyGitHubAPI.config import base_url
-from pyGitHubAPI.pagenator import Pagenator
+from pyGitHubAPI.github_api import ghAPI
 from requests import Response
 from pathlib import Path
 import csv
@@ -13,15 +12,9 @@ def waiting(res : Response) :
     if ratelimit_remaining < 5 : ####
         time.sleep(30 * 60)
 
-def download_pull_requests(owner, repo, state = 'closed', *, output_path) : 
-    url = uri = f'{base_url}/repos/{owner}/{repo}/pulls'
+def download_pull_requests(owner, repo, state = 'closed', *, output_path) :         
+    pagenator = ghAPI.get_list_pull_requests(owner, repo, state)
     page = 1
-    params = {
-        'state' : state, 
-        'per_page' : 100, 
-        'page' : page
-    }
-    pagenator = Pagenator(url, params)
 
     for res in pagenator : 
         if res.status_code == 200 : 
@@ -38,7 +31,7 @@ def batch_download(input_file_path, output_base_path) :
         for data in reader : 
             id = data['id']
             owner = data['owner']
-            repo = data['name']            
+            repo = data['name']  
             
             output_path = Path(f'{output_base_path}/{id}')
             if output_path.exists() : 

@@ -28,13 +28,8 @@ def main() :
 
             Path(f'./repo_content/REVIEW_COMMENT/{id}').mkdir(exist_ok = True)
 
-            page = 1
-            url = f'{base_url}repos/{owner}/{repo}/pulls/comments'
-            params = {
-                'per_page' : 100, 
-                'page' : page
-            }            
-            pagenator = Pagenator(url, params)
+            page = 1     
+            pagenator = ghAPI.get_list_review_comments(owner, repo)
             try : 
                 download(id, page, pagenator)
             except :                 

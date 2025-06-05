@@ -2,6 +2,7 @@ from pyGitHubAPI.config import base_url, headers, token
 from pyGitHubAPI.pagenator import Pagenator
 import json
 import requests
+import datetime
 
 
 class GitHubAPI : 
@@ -29,8 +30,13 @@ class GitHubAPI :
         url = f'{self.base_url}/search/repositories'
         return Pagenator(url, params, headers)        
     
+    def get_repository_contents(self, owner, repo) : 
+        uri = f'{self.base_url}/repos/{owner}/{repo}/contents'
+        res = requests.get(uri, headers = headers)
+        return res 
+
     def get_repository_content(self, owner, repo, path) : 
-        uri = f'{self.base_url}/repos/{owner}/{repo}/contents/{path}'        
+        uri = f'{self.base_url}/repos/{owner}/{repo}/contents/{path}'
         res = requests.get(uri, headers = headers)
         return res 
     
@@ -67,10 +73,13 @@ class GitHubAPI :
         res = requests.get(url, headers = headers)
         return res
     
-    def get_pull_request_reviews(self, owner, repo, number) : 
+    def get_pull_request_reviews(self, owner, repo, number) -> Pagenator : 
         url = f'{self.base_url}/repos/{owner}/{repo}/pulls/{number}/reviews'
-        res = requests.get(url, headers = headers)
-        return res
+        params = {
+            'per_page' : 100, 
+            'page' : 1
+        }
+        return Pagenator(url, params, headers = headers )
     
     def get_pull_request_review_comments(self, owner, repo, number) : 
         url = f'{self.base_url}/repos/{owner}/{repo}/pulls/{number}/comments'
@@ -97,6 +106,14 @@ class GitHubAPI :
     def get_req(self, url, params = None) : 
         res = requests.get(url, params = params, headers = self.headers ) 
         return res
+    
+    def compute_rate_limit_time_seconds(self, res) : 
+        ratelimit_reset = res.headers.get('x-ratelimit-reset')
+        ratelimit_reset_value = int(ratelimit_reset)
+        ratelimit_time = datetime.datetime.fromtimestamp( ratelimit_reset_value )
+        diff_time = ratelimit_time - datetime.datetime.today()
+
+        return diff_time.total_seconds()
 
     def get_octocat(self) : 
         uri = f'{self.base_url}/octocat'
