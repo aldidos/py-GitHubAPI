@@ -3,7 +3,15 @@ from pyGitHubAPI.pagenator import Pagenator
 import json
 import requests
 import datetime
+import time
 
+def delay(res) : 
+    remaining = res.headers.get('x-ratelimit-remaining')
+    remaining = int(remaining)
+    if remaining == 0 : 
+        wait_second = ghAPI.compute_rate_limit_time_seconds(res)
+        print(f'wait for {wait_second} seconds.')
+        time.sleep(wait_second) 
 
 class GitHubAPI : 
 
