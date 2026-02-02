@@ -1,4 +1,5 @@
 import requests
+from pyGitHubAPI.util import delay
 
 class Pagenator : 
 
@@ -18,6 +19,7 @@ class Pagenator :
 
         next = self.cur_res.links.get('next')
         if next : 
+            delay(self.cur_res)
             url = next['url']
             print(f'GET {url}')
             self.cur_res = requests.get(url, headers = self.headers) 
