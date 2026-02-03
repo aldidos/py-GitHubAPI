@@ -109,10 +109,10 @@ class GitHubAPI :
         }
         return self.get_req(url, qParams)
     
-    def get_repository_contributors(self, owner, repo, *, anon = 'true', per_page = 100, page = 1) -> Response : 
-        url = f'{self.base_url}/repos/{owner}/{repo}/contributors'
+    def get_repository_collaborators(self, owner, repo, *, affiliation = 'all', per_page = 100, page = 1) -> Response : 
+        url = f'{self.base_url}/repos/{owner}/{repo}/collaborators'
         qParams = {
-            'anon' : anon, 
+            'affiliation' : affiliation, 
             'per_page' : per_page, 
             'page' : page
         }
