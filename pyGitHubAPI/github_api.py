@@ -1,5 +1,4 @@
 from pyGitHubAPI.config import base_url, headers, token
-from pyGitHubAPI.pagenator import Pagenator
 import json
 import requests
 from requests import Response
