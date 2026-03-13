@@ -116,8 +116,24 @@ class GitHubAPI :
             'page' : page
         }
         return self.get_req(url, qParams)
+    
+    def get_issue_timeline_events(self, owner, repo, issue_number, per_page = 100, page = 1) -> Response : 
+        url = f'{self.base_url}/repos/{owner}/{repo}/issues/{issue_number}/timeline'
+        qParams = {            
+            'per_page' : per_page, 
+            'page' : page
+        }
+        return self.get_req(url, qParams) 
+    
+    def get_issue_events(self, owner, repo, issue_number, per_page = 100, page = 1) -> Response : 
+        url = f'{self.base_url}/repos/{owner}/{repo}/issues/{issue_number}/events'
+        qParams = {            
+            'per_page' : per_page, 
+            'page' : page
+        }
+        return self.get_req(url, qParams) 
 
-    def get_req(self, url, params = None) : 
+    def get_req(self, url, params = None) -> Response : 
         res = requests.get(url, params = params, headers = self.headers ) 
         return res
     
