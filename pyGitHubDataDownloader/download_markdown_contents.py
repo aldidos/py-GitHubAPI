@@ -23,7 +23,7 @@ def explorer_pull_request_template_markdown_file(repo_id, owner, name) :
         json.dump(contents, f)
 
 if __name__ == '__main__' : 
-    input_file_path = 'e:/research_pullreq_template_checklist/data/download_markdown_content.csv'
+    input_file_path = sys.argv[1]
     
     with open(input_file_path, mode = 'r', encoding = 'utf-8-sig') as f : 
         reader = csv.DictReader(f)
