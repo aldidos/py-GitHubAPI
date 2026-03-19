@@ -132,6 +132,15 @@ class GitHubAPI :
             'page' : page
         }
         return self.get_req(url, qParams) 
+    
+    def get_contributors(self, owner, repo, per_page = 100, page = 1, anon = True ) -> Response : 
+        url = f'{self.base_url}/repos/{owner}/{repo}/contributors'
+        qParams = {            
+            'per_page' : per_page, 
+            'page' : page,
+            'anon' : anon
+        }
+        return self.get_req(url, qParams)
 
     def get_req(self, url, params = None) -> Response : 
         res = requests.get(url, params = params, headers = self.headers ) 
