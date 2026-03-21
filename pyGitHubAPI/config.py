@@ -1,15 +1,21 @@
 from dotenv import dotenv_values
 
-config = dotenv_values('.env')
-token = config['GITHUB_TOKEN']
+# config = dotenv_values('.env')
+# token = config['GITHUB_TOKEN']
 
-headers = {
-    'Accept' : 'application/vnd.github+json', 
-    'Authorization' : f'Bearer {token}'
+# headers = {
+#     'Accept' : 'application/vnd.github+json', 
+#     'Authorization' : f'Bearer {token}'
     
-}
+# }
 
 base_url = f'https://api.github.com/'
 
 def make_ghurl(uri) : 
     return f'{base_url}{uri}'
+
+def make_headers(token) : 
+    return {
+        'Accept' : 'application/vnd.github+json', 
+        'Authorization' : f'Bearer {token}'    
+    }

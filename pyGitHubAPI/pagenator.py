@@ -1,5 +1,5 @@
 import requests
-from pyGitHubAPI.github_api import ghAPI
+from pyGitHubAPI.config import base_url
 from pyGitHubAPI.util import delay
 
 class Pagenator : 
@@ -14,8 +14,8 @@ class Pagenator :
         return self
     
     def __next__(self) : 
-        if not self.cur_res : 
-            res = ghAPI.get_rate_limit()
+        if not self.cur_res :             
+            res = requests.get(f'{base_url}/rate_limit', headers = self.headers)
             delay(res)
             self.cur_res = requests.get(url = self.url, params = self.params, headers = self.headers)
             print(f'GET {self.url}')
@@ -23,7 +23,7 @@ class Pagenator :
 
         next = self.cur_res.links.get('next')
         if next : 
-            res = ghAPI.get_rate_limit()
+            res = requests.get(f'{base_url}/rate_limit', headers = self.headers)
             delay(res)
             url = next['url']
             print(f'GET {url}')
