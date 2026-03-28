@@ -1,6 +1,6 @@
 from pyGitHubAPI.config import base_url
 import requests
-from requests import Response
+from requests import Response, Session
 
 class GitHubAPI : 
 
@@ -8,46 +8,27 @@ class GitHubAPI :
         self.base_url = base_url
         self.headers = headers        
     
-    def get_repository_README(self, owner, repo) : 
-        uri = f'{self.base_url}/repos/{owner}/{repo}/readme'
-        return requests.get(uri, headers = self.headers)        
+    def get_repository_README(session : Session, owner, repo) : 
+        url = f'{base_url}/repos/{owner}/{repo}/readme'
+        return session.get(url) 
     
-    def get_search_repositories(self, q, sort = 'starts', order = 'desc', per_page = 100 ) -> Response : 
-        params = {
-            'q' : q, 
-            'sort' : sort, 
-            'order' : order, 
-            'per_page' : per_page
-        }
-        url = f'{self.base_url}/search/repositories'
-        return requests.get(url, params = params, headers = self.headers )
-    
-    def get_repository_contents(self, owner, repo) : 
-        uri = f'{self.base_url}/repos/{owner}/{repo}/contents'
-        return requests.get(uri, headers = self.headers)        
+    def get_repository_contents(session : Session, owner, repo) : 
+        uri = f'{base_url}/repos/{owner}/{repo}/contents'
+        return session.get(uri) 
 
-    def get_repository_content(self, owner, repo, path) : 
-        uri = f'{self.base_url}/repos/{owner}/{repo}/contents/{path}'
-        return requests.get(uri, headers = self.headers)
+    def get_repository_content(session : Session, owner, repo, path) -> Response : 
+        uri = f'{base_url}/repos/{owner}/{repo}/contents/{path}'
+        return session.get(uri)
     
-    def get_list_repository_issues(self, owner, repo, state = 'all', sort = 'created', per_page = 100) -> Response : 
-        url = f'{self.base_url}/repos/{owner}/{repo}/issues'
-        params = {
-            'state' : state, 
-            'sort' : sort, 
-            'per_page' : per_page
-        }
-        return requests.get(url, params = params, headers = self.headers )
-    
-    def get_list_pull_requests(self, owner, repo, state = 'all', sort = 'created', per_page = 100, page = 1) -> Response : 
-        url = f'{self.base_url}/repos/{owner}/{repo}/pulls'
+    def get_list_pull_requests(session : requests.Session, owner, repo, state = 'all', sort = 'created', per_page = 100, page = 1) -> Response : 
+        url = f'{base_url}/repos/{owner}/{repo}/pulls'
         params = {
             'state' : state, 
             'sort' : sort,
             'per_page' : per_page, 
             'page' : page
         }
-        return requests.get(url, params = params, headers = self.headers )
+        return session.get(url, params = params )
     
     def get_list_commits(self, owner, repo, path, per_page = 100, page = 1) -> Response : 
         url = f'{self.base_url}/repos/{owner}/{repo}/commits'
@@ -57,52 +38,10 @@ class GitHubAPI :
             'page' : page
         }
         return requests.get(url, params = params, headers = self.headers )
-
-    def get_a_commit(self, owner, repo, ref) : 
-        url = f'{self.base_url}/repos/{owner}/{repo}/commits/{ref}'
-        return requests.get(url, headers = self.headers)        
     
-    def get_repository(self, owner, repo) : 
-        uri = f'{self.base_url}/repos/{owner}/{repo}'
-        return requests.get(uri, headers = self.headers)        
-    
-    def get_issue_events(self, owner, repo, number) : 
-        url = f'{self.base_url}/repos/{owner}/{repo}/issues/{number}/events'
-        return requests.get(url, headers = self.headers)        
-    
-    def get_issue_comments(self, owner, repo, number) : 
-        url = f'{self.base_url}/repos/{owner}/{repo}/issues/{number}/comments'
-        return requests.get(url, headers = self.headers)        
-    
-    def get_pull_request_reviews(self, owner, repo, number) -> Response : 
-        url = f'{self.base_url}/repos/{owner}/{repo}/pulls/{number}/reviews'
-        params = {
-            'per_page' : 100, 
-            'page' : 1
-        }
-        return requests.get(url, params = params, headers = self.headers )        
-    
-    def get_pull_request_review_comments(self, owner, repo, number) : 
-        url = f'{self.base_url}/repos/{owner}/{repo}/pulls/{number}/comments'
-        return requests.get(url, headers = self.headers)        
-    
-    def get_list_review_comments(self, owner, repo, *, since = None, per_page = 100, page = 1) -> Response : 
-        url = f'{self.base_url}/repos/{owner}/{repo}/pulls/comments'
-        params = {
-            'per_page' : per_page, 
-            'page' : page, 
-            'since' : since
-        }
-        return requests.get(url, params = params, headers = self.headers )        
-    
-    def get_repository_collaborators(self, owner, repo, *, affiliation = 'all', per_page = 100, page = 1) -> Response : 
-        url = f'{self.base_url}/repos/{owner}/{repo}/collaborators'
-        params = {
-            'affiliation' : affiliation, 
-            'per_page' : per_page, 
-            'page' : page
-        }
-        return requests.get(url, params = params, headers = self.headers )        
+    def get_repository(session : requests.Session, owner, repo) -> Response : 
+        uri = f'{base_url}/repos/{owner}/{repo}'
+        return session.get(uri) 
     
     def get_issue_timeline_events(self, owner, repo, issue_number, per_page = 100, page = 1) -> Response : 
         url = f'{self.base_url}/repos/{owner}/{repo}/issues/{issue_number}/timeline'
@@ -120,27 +59,27 @@ class GitHubAPI :
         }
         return requests.get(url, params = params, headers = self.headers ) 
     
-    def get_contributors(self, owner, repo, per_page = 100, page = 1, anon = True ) -> Response : 
-        url = f'{self.base_url}/repos/{owner}/{repo}/contributors'
+    def get_contributors(session : Session, owner, repo, per_page = 100, page = 1, anon = True ) -> Response : 
+        url = f'{base_url}/repos/{owner}/{repo}/contributors'
         params = {            
             'per_page' : per_page, 
             'page' : page,
             'anon' : anon
         }
-        return requests.get(url, params = params, headers = self.headers )
+        return session.get(url, params = params )
 
     def get_req(self, url, params = None) -> Response : 
         res = requests.get(url, params = params, headers = self.headers ) 
         return res
     
-    def get_rate_limit(self) : 
-        url = f'{self.base_url}/rate_limit'
-        res = requests.get(url, headers = self.headers)
+    def get_rate_limit(session : requests.Session) : 
+        url = f'{base_url}/rate_limit'
+        res = session.get(url)
         return res    
 
-    def get_octocat(self) : 
-        uri = f'{self.base_url}/octocat'
-        res = requests.get(uri, headers = self.headers)
+    def get_octocat(session : requests.Session) : 
+        url = f'{base_url}/octocat'
+        res = session.get(url)
         return res
 
 def make_headers(token) : 

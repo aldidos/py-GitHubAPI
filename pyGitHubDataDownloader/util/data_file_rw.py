@@ -18,9 +18,12 @@ class DataFileReader :
         
 class DataFileWriter : 
 
-    def to_json(file_path, dataset : list) : 
+    def to_json(file_path, dataset : list, default = None) :         
         with open(file_path, mode = 'w', encoding = 'utf-8') as wf : 
-            json.dump(dataset, wf)
+            if default == None : 
+                json.dump(dataset, wf)
+            else : 
+                json.dump(dataset, wf, default = default)
 
     def to_csv(file_path, fieldnames : list[str],  dataset : list) : 
         with open(file_path, mode = 'w', encoding = 'utf-8') as wf : 

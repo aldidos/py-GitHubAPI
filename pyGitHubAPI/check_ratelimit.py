@@ -1,14 +1,20 @@
 import sys
 sys.path.append('.')
-from pyGitHubAPI.github_api import create_GitHubAPI
+from pyGitHubAPI.gh_api_session_caller import GhAPISessionCaller
+from pyGitHubAPI.config import make_headers
 from util import compute_rate_limit_time_seconds
+from requests import Session
+
+session = Session()
 
 def get_ratelimits(token) : 
-    print(f'TOKEN : {token}')
+    print(f'TOKEN : {token}')   
 
-    ghAPI = create_GitHubAPI(token)
-    res = ghAPI.get_rate_limit()
-    remaining = res.headers.get('x-ratelimit-remaining')    
+    headers = make_headers(token)
+    session.headers.update( headers )
+    res = GhAPISessionCaller.get_rate_limit(session)
+
+    remaining = res.headers.get('x-ratelimit-remaining') 
     print(f'rate remaining = {remaining}')
 
     reset_time_sec = compute_rate_limit_time_seconds(res)
