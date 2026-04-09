@@ -8,7 +8,7 @@ from pyGitHubAPI.pagenator import Pagenator
 from pathlib import Path
 from requests import Session
 
-def task_get_issue_timeline_events(session : Session, headers, repo_id, owner, name, page, output_base_dir_path) : 
+def task_get_issue_events(session : Session, headers, repo_id, owner, name, page, output_base_dir_path) : 
     session.headers.update(headers)
     res = GhAPISessionCaller.get_issue_timeline_events( session, owner, name, page = page ) 
 
@@ -17,15 +17,16 @@ def task_get_issue_timeline_events(session : Session, headers, repo_id, owner, n
 
     if res.status_code == 200 : 
         output_file_name = f'{output_dir}/{page}.json'
-        Path(f'{output_dir}/{output_file_name}').write_text(res.text, encoding = 'utf-8')
+        Path(output_file_name).write_text(res.text, encoding = 'utf-8')
 
     return res, None
 
 def download(dataset, output_base_dir_path, gh_tokens) : 
+    num_works = 128
     n_tokens = len(gh_tokens)
     
-    args = [ ( task_get_issue_timeline_events, gh_tokens[order %n_tokens], (row['repo_id'], row['owner'], row['name'], row['page'], output_base_dir_path) ) for order, row in enumerate(dataset) ]
-    executor = ParallelExecutor(50)
+    args = [ ( task_get_issue_events, gh_tokens[order %n_tokens], (row['repo_id'], row['owner'], row['name'], row['page'], output_base_dir_path) ) for order, row in enumerate(dataset) ]
+    executor = ParallelExecutor(num_works)
     executor.run(args)
 
 if __name__ == '__main__' :  

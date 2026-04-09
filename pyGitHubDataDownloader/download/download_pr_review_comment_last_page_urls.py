@@ -19,7 +19,8 @@ def download_pr_review_comment_last_page_url(session : Session, headers, repo_id
         'repo_id' : repo_id,
         'owner' : owner, 
         'name' : name,
-        'last_page_url' : last_url
+        'last_page_url' : last_url,
+        'response_status_code' : res.status_code
     }
 
 def download(dataset, gh_tokens) : 

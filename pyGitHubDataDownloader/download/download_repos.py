@@ -14,15 +14,15 @@ def task_get_repository(session : Session, headers, owner, repo, output_dir) :
         repository = json.loads( res.text )
         repo_id = repository['id']       
         Path(f'{output_dir}/{repo_id}.json').write_text(res.text, encoding ='utf-8')
-        print(f'{repo_id} downloaded')        
 
     return res, None
 
 def download_repository(dataset, output_dir, gh_tokens) : 
+    num_workers = 128
     num_tokens = len(gh_tokens)
 
     args = [ (task_get_repository, gh_tokens[ order % num_tokens ], (row['owner'], row['name'], output_dir) ) for order, row in enumerate(dataset) ]    
-    executor = ParallelExecutor(50)
+    executor = ParallelExecutor(num_workers)
     executor.run( args )
      
 if __name__ == '__main__' :     

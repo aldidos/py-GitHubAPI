@@ -19,6 +19,13 @@ class ParallelExecutor:
         )
         self.session.mount('https://', adapter)        
 
+    def is_rate_limit_error(self, res) : 
+        remaining = res.headers.get('x-ratelimit-remaining')
+        remaining = int(remaining)
+        if remaining == 0  : 
+            return True
+        return False
+
     def _execute(self, task_func, token, *args) : 
         headers = make_headers(token)
         response = None
@@ -27,12 +34,12 @@ class ParallelExecutor:
                 # 콜백 함수에 토큰과 멤버 변수인 self.session을 함께 전달
                 response, results = task_func(self.session, headers, *args)
                 
-                # if response.status_code == 403 or response.status_code == 429:
                 if response.status_code in [403, 429] :
-                    # reset_at = int(response.headers.get('x-ratelimit-reset', time.time() + 3600))                    
-                    print(f"⚠️ 토큰 제한 감지: {token}")
-                    delay(response)
-                    continue 
+                    if self.is_rate_limit_error(response) : 
+                        print(f"⚠️ 토큰 제한 감지: {token}")
+                        delay(response)
+                        print(f'스래드 다시 시작:{token}')
+                        continue                     
                 
                 return (response, results)
                 
@@ -41,7 +48,6 @@ class ParallelExecutor:
                 return response, None
 
     def run(self, items): 
-        # results = {} 
         responses = []
         results = []
         with concurrent.futures.ThreadPoolExecutor(max_workers=self.max_workers) as executor:
@@ -58,8 +64,9 @@ class ParallelExecutor:
                 # item_id = future_to_item[future]
                 try:
                     res, result = future.result()
-                    responses.append(res)
-                    results.append(result)
+                    if result : 
+                        responses.append(res)
+                        results.append(result)
                     # results[item_id] = result
                 except Exception as e:
                     # results[item_id] = f"Error: {e}"

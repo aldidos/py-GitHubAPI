@@ -1,7 +1,7 @@
 import sys
 sys.path.append('.')
 from pyGitHubDataDownloader.util.data_file_rw import DataFileReader, DataFileWriter
-from pyGitHubDataDownloader.executor.parallel_process_executor import ParallelProcessExecutor
+from pyGitHubDataDownloader.executor.parallel_executor import ParallelExecutor
 from pyGitHubAPI.gh_api_session_caller import GhAPISessionCaller
 from requests import Session
 
@@ -11,7 +11,7 @@ def task_get_pr_last_page_url(session : Session, headers, repo_id, owner, repo, 
           
     res = GhAPISessionCaller.get_list_pull_requests(session, owner, repo, state, per_page = 100, page = 1)    
     last_url = None
-
+    
     if res.status_code == 200 :  
         last = res.links.get('last')
         if last :             
@@ -21,13 +21,15 @@ def task_get_pr_last_page_url(session : Session, headers, repo_id, owner, repo, 
         'repo_id' : repo_id, 
         'owner' : owner, 
         'name' : repo,
-        'last_page_url' : last_url
+        'last_page_url' : last_url, 
+        'response_status_code' : res.status_code
     }
 
 def download(dataset, gh_tokens) : 
+    num_workers = 128
     n_tokens = len(gh_tokens)
-    dataset = [ ( task_get_pr_last_page_url, gh_tokens[ order % n_tokens], row['repo_id'], row['owner'], row['name'], 'closed') for order, row in enumerate(dataset) ]
-    executor = ParallelProcessExecutor()
+    dataset = [ ( task_get_pr_last_page_url, gh_tokens[ order % n_tokens], (row['repo_id'], row['owner'], row['name'], 'closed') ) for order, row in enumerate(dataset) ]
+    executor = ParallelExecutor(num_workers)
     results = executor.run(dataset)
     return results
 
@@ -39,6 +41,6 @@ if __name__ == '__main__' :
 
     dataset = DataFileReader.from_csv(input_file_path)
 
-    results = download(dataset, gh_tokens)
-    results = [ result for res, result in results if result is not None ]
+    responses, results = download(dataset, gh_tokens)
+    results = [ result for result in results ]
     DataFileWriter.to_json(output_file_path, results)   
