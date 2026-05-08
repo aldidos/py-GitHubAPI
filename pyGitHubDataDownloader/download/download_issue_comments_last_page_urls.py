@@ -5,9 +5,9 @@ from requests import Session
 from pyGitHubDataDownloader.util.data_file_rw import DataFileReader, DataFileWriter
 from pyGitHubDataDownloader.executor.parallel_executor import ParallelExecutor
 
-def download_pr_review_comment_last_page_url(session : Session, headers, repo_id, owner, name) : 
+def download_issue_comment_last_page_url(session : Session, headers, repo_id, owner, name, since) : 
     session.headers.update(headers)    
-    res = GhAPISessionCaller.get_list_review_comments(session, owner, name, per_page = 100, page = 1)
+    res = GhAPISessionCaller.get_issue_comments(session, owner, name, since, per_page = 100, page = 1)
     print(f'{repo_id}/{owner}/{name}')
     last_url = None
     if res.status_code == 200 : 
@@ -26,7 +26,7 @@ def download_pr_review_comment_last_page_url(session : Session, headers, repo_id
 def download(dataset, gh_tokens) : 
     n_workers = 256
     n_tokens = len(gh_tokens)
-    args = [ ( download_pr_review_comment_last_page_url, gh_tokens[order % n_tokens], ( row['repo_id'], row['owner'], row['name'] ) ) for order, row in enumerate(dataset) ]
+    args = [ ( download_issue_comment_last_page_url, gh_tokens[order % n_tokens], ( row['repo_id'], row['owner'], row['name'], row['prt_init_date'] ) ) for order, row in enumerate(dataset) ]
 
     executor = ParallelExecutor(n_workers)
     responses, results = executor.run( args )
@@ -39,7 +39,7 @@ if __name__ == '__main__' :
     output_file_path = in_args['output_file_path']
     gh_tokens = DataFileReader.from_json( in_args['gh_token_file_path'] ) 
 
-    csv_dataset = DataFileReader.from_csv(input_file_path)
-    results = download(csv_dataset, gh_tokens)
+    json_dataset = DataFileReader.from_json(input_file_path)
+    results = download(json_dataset, gh_tokens)
     results = [ result for result in results ]
     DataFileWriter.to_json(output_file_path, results) 

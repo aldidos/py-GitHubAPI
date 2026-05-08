@@ -24,6 +24,10 @@ class GhAPISessionCaller :
         }
         return session.get(url, params = params )
     
+    def get_pull_request(session : Session, owner, repo, pull_number) -> Response :         
+        url = f'{base_url}/repos/{owner}/{repo}/pulls/{pull_number}'
+        return session.get(url)
+    
     def get_repository(session : Session, owner, repo) -> Response : 
         uri = f'{base_url}/repos/{owner}/{repo}'
         return session.get(uri) 
@@ -53,6 +57,15 @@ class GhAPISessionCaller :
             'page' : page
         }
         return session.get(url, params = params)    
+    
+    def get_issue_comments(session : Session, owner, repo, since = None, per_page = 100, page = 1) -> Response : 
+        url = f'{base_url}/repos/{owner}/{repo}/issues/comments'
+        params = {            
+            'per_page' : per_page, 
+            'page' : page,
+            'since' : since
+        }
+        return session.get(url, params = params)
     
     def get_rate_limit(session : Session) : 
         url = f'{base_url}/rate_limit'

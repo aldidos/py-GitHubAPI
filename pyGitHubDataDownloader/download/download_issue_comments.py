@@ -12,7 +12,7 @@ def task_get_pull_request_review_comments(session : Session, headers, repo_id, o
     output_path = Path(f'{output_base_path}/{repo_id}')
     output_path.mkdir(exist_ok = True)
 
-    res = GhAPISessionCaller.get_list_review_comments(session, owner, repo=name, per_page = 100, page = page)
+    res = GhAPISessionCaller.get_issue_comments(session, owner, repo=name, per_page = 100, page = page)
     if res.status_code == 200 : 
         output_file_path = f'{output_path}/{page}.json'
         Path(output_file_path).write_text(res.text, encoding = 'utf-8')                
