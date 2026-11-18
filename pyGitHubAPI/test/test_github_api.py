@@ -2,7 +2,7 @@ import sys
 sys.path.append('.')
 import unittest
 from pyGitHubAPI.github_api import ghAPI
-from pyGitHubAPI.pagenator import Pagenator
+from pathlib import Path
 
 class TestGitAPI(unittest.TestCase) : 
     
@@ -62,7 +62,35 @@ class TestGitAPI(unittest.TestCase) :
         number = 2002
 
         res = ghAPI.get_issue_events(owner, repo, number)
-        self.assertEqual(res.status_code, 200)        
+        self.assertEqual(res.status_code, 200)
+
+    def test_get_list_commits(self) : 
+        repo_id = 100057683
+        owner = 'britecharts'
+        repo = 'britecharts-react'
+        path = '.github/PULL_REQUEST_TEMPLATE.md'
+
+        output_path = Path(f'./repo_content/COMMITS/{repo_id}')
+        output_path.mkdir(exist_ok = True)
+
+        n_page = 1
+        pagenator = ghAPI.get_list_commits(owner, repo, path)
+        for res in pagenator : 
+            self.assertEqual(res.status_code, 200)
+            
+            output_path = output_path / f'{n_page}.json'
+            output_path.write_text(res.text, encoding = 'utf-8')
+            n_page += 1
+
+    def test_get_a_commit(self) : 
+        owner = 'NicolasCARPi'
+        repo = 'jquery_jeditable'
+        ref = '3207325678af7af4bb397905b9697c1c106cd212'
+
+        res = ghAPI.get_a_commit(owner, repo, ref)
+        self.assertEqual(res.status_code, 200)
+        print(res.text)
+
 
 if __name__ == '__main__' : 
     unittest.main()

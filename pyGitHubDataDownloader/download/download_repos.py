@@ -1,35 +1,32 @@
 import sys
 sys.path.append('.')
-from pyGitHubDataDownloader.util.data_file_rw import DataFileReader
-from pathlib import Path
-import json
-from pyGitHubDataDownloader.executor.parallel_executor import ParallelExecutor
-from requests import Session
-from pyGitHubAPI.gh_api_session_caller import GhAPISessionCaller
+from pyGitHubDataDownloader.util.data_file_rw import DataFileReader, DataFileWriter
+from pyGitHubAPI.async_gh_api_caller import AsyncGHApiCaller
+from pyGitHubDataDownloader.github_mass_scraper import GitHubMassScraper
+from pyGitHubDataDownloader.response_callbacks import write_response_json
+import asyncio
 
-def task_get_repository(session : Session, headers, owner, repo, output_dir) : 
-    session.headers.update(headers)
-    res = GhAPISessionCaller.get_repository(session, owner, repo)    
-    if res.status_code == 200 :         
-        repository = json.loads( res.text )
-        repo_id = repository['id']       
-        Path(f'{output_dir}/{repo_id}.json').write_text(res.text, encoding ='utf-8')
+async def download_repositories(dataset, output_dir, gh_tokens) : 
+    args = [ 
+         (
+            [ row['name'] ],  ## api args.
+            [f'{output_dir}/{order}.json'], ## res args.
+            order
+         )
+         for order, row in enumerate(dataset) ]  
 
-    return res, None
-
-def download_repository(dataset, output_dir, gh_tokens) : 
-    num_workers = 128
-    num_tokens = len(gh_tokens)
-
-    args = [ (task_get_repository, gh_tokens[ order % num_tokens ], (row['owner'], row['name'], output_dir) ) for order, row in enumerate(dataset) ]    
-    executor = ParallelExecutor(num_workers)
-    executor.run( args )
+    scraper = GitHubMassScraper(gh_tokens)
+    await scraper.run(
+        args, 
+        AsyncGHApiCaller.get_repositories,
+        write_response_json
+        )
      
 if __name__ == '__main__' :     
     in_args = DataFileReader.from_json( sys.argv[1] ) 
     input_file_path = in_args['in_file_path']
     output_dir = in_args['output_dir_path']
     gh_tokens = DataFileReader.from_json( in_args['gh_token_file_path'] ) 
+    dataset = DataFileReader.from_json(input_file_path)
 
-    csv_data = DataFileReader.from_csv(input_file_path)
-    download_repository(csv_data, output_dir, gh_tokens) 
+    asyncio.run(download_repositories(dataset, output_dir, gh_tokens))

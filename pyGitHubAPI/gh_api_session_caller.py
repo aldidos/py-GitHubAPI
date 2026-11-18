@@ -28,12 +28,12 @@ class GhAPISessionCaller :
         url = f'{base_url}/repos/{owner}/{repo}/pulls/{pull_number}'
         return session.get(url)
     
-    def get_repository(session : Session, owner, repo) -> Response : 
-        uri = f'{base_url}/repos/{owner}/{repo}'
+    def get_repository(session : Session, repo_name) -> Response : 
+        uri = f'{base_url}/repos/{repo_name}'
         return session.get(uri) 
     
-    def get_contributors(session : Session, owner, repo, per_page = 100, page = 1, anon = True ) -> Response : 
-        url = f'{base_url}/repos/{owner}/{repo}/contributors'
+    def get_contributors(session : Session, repo_name, per_page = 100, page = 1, anon = True ) -> Response : 
+        url = f'{base_url}/repos/{repo_name}/contributors'
         params = {            
             'per_page' : per_page, 
             'page' : page,
